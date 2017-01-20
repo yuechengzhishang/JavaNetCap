@@ -1,0 +1,516 @@
+2017-01-18 10:59:06  [ AWT-EventQueue-0:0 ] - [ DEBUG ]  capture is stoped!
+2017-01-18 14:44:40  [ AWT-EventQueue-0:0 ] - [ DEBUG ]  Capture Thread is started...
+2017-01-18 14:44:42  [ AWT-EventQueue-0:2482 ] - [ DEBUG ]  Capture Thread is stoped...
+2017-01-18 15:03:02  [ AWT-EventQueue-0:0 ] - [ DEBUG ]  Capture Thread is started...
+2017-01-18 15:05:15  [ AWT-EventQueue-0:132677 ] - [ DEBUG ]  Capture Thread is started...
+2017-01-18 15:05:15  [ Thread-2:132777 ] - [ DEBUG ]  sequence:2261643337 id---->0 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132779 ] - [ DEBUG ]  isFin:false packet---->1484723052:19181 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1263) TCP 57323 > 8888 seq(2261643337) win(8192)  S
+2017-01-18 15:05:15  [ Thread-2:132782 ] - [ DEBUG ]  sequence:3154126974 id---->0 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132782 ] - [ DEBUG ]  isFin:false packet---->1484723052:19437 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1264) TCP 57324 > 8888 seq(3154126974) win(8192)  S
+2017-01-18 15:05:15  [ Thread-2:132782 ] - [ DEBUG ]  sequence:2588648190 id---->0 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132783 ] - [ DEBUG ]  isFin:false packet---->1484723052:119966 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57323 seq(2588648190) win(14600) ack 2261643338  S
+2017-01-18 15:05:15  [ Thread-2:132783 ] - [ DEBUG ]  sequence:2261643338 id---->0 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132783 ] - [ DEBUG ]  isFin:false packet---->1484723052:120100 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1265) TCP 57323 > 8888 seq(2261643338) win(69) ack 2588648191 
+2017-01-18 15:05:15  [ Thread-2:132783 ] - [ DEBUG ]  sequence:3866472999 id---->0 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132784 ] - [ DEBUG ]  isFin:false packet---->1484723052:138907 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57324 seq(3866472999) win(14600) ack 3154126975  S
+2017-01-18 15:05:15  [ Thread-2:132784 ] - [ DEBUG ]  sequence:3154126975 id---->0 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132784 ] - [ DEBUG ]  isFin:false packet---->1484723052:139007 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1266) TCP 57324 > 8888 seq(3154126975) win(69) ack 3866473000 
+2017-01-18 15:05:15  [ Thread-2:132784 ] - [ DEBUG ]  sequence:2261643338 id---->0 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132785 ] - [ DEBUG ]  isFin:false packet---->1484723052:285801 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1267) TCP 57323 > 8888 seq(2261643338) win(69) ack 2588648191  P
+2017-01-18 15:05:15  [ Thread-2:132785 ] - [ DEBUG ]  sequence:2588648191 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132785 ] - [ DEBUG ]  isFin:false packet---->1484723052:292850 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(26735) TCP 8888 > 57323 seq(2588648191) win(123) ack 2261643718 
+2017-01-18 15:05:15  [ Thread-2:132785 ] - [ DEBUG ]  sequence:2588648191 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132785 ] - [ DEBUG ]  isFin:false packet---->1484723052:308633 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(26736) TCP 8888 > 57323 seq(2588648191) win(123) ack 2261643718 
+2017-01-18 15:05:15  [ Thread-2:132786 ] - [ DEBUG ]  sequence:2588649551 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132786 ] - [ DEBUG ]  isFin:false packet---->1484723052:308730 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(26737) TCP 8888 > 57323 seq(2588649551) win(123) ack 2261643718 
+2017-01-18 15:05:15  [ Thread-2:132786 ] - [ DEBUG ]  sequence:2261643718 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132786 ] - [ DEBUG ]  isFin:false packet---->1484723052:308755 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1268) TCP 57323 > 8888 seq(2261643718) win(69) ack 2588650911 
+2017-01-18 15:05:15  [ Thread-2:132787 ] - [ DEBUG ]  sequence:2588650911 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132787 ] - [ DEBUG ]  isFin:false packet---->1484723052:308814 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(26738) TCP 8888 > 57323 seq(2588650911) win(123) ack 2261643718 
+2017-01-18 15:05:15  [ Thread-2:132787 ] - [ DEBUG ]  sequence:2588652271 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132787 ] - [ DEBUG ]  isFin:false packet---->1484723052:308881 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(26739) TCP 8888 > 57323 seq(2588652271) win(123) ack 2261643718 
+2017-01-18 15:05:15  [ Thread-2:132788 ] - [ DEBUG ]  sequence:2261643718 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132788 ] - [ DEBUG ]  isFin:false packet---->1484723052:308901 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1269) TCP 57323 > 8888 seq(2261643718) win(69) ack 2588653631 
+2017-01-18 15:05:15  [ Thread-2:132788 ] - [ DEBUG ]  sequence:2588653631 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132788 ] - [ DEBUG ]  isFin:false packet---->1484723052:317440 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(26740) TCP 8888 > 57323 seq(2588653631) win(123) ack 2261643718 
+2017-01-18 15:05:15  [ Thread-2:132789 ] - [ DEBUG ]  sequence:2588654991 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132795 ] - [ DEBUG ]  isFin:false packet---->1484723052:317723 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(26741) TCP 8888 > 57323 seq(2588654991) win(123) ack 2261643718 
+2017-01-18 15:05:15  [ Thread-2:132796 ] - [ DEBUG ]  sequence:2261643718 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132796 ] - [ DEBUG ]  isFin:false packet---->1484723052:317788 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1270) TCP 57323 > 8888 seq(2261643718) win(69) ack 2588656351 
+2017-01-18 15:05:15  [ Thread-2:132796 ] - [ DEBUG ]  sequence:2588656351 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132796 ] - [ DEBUG ]  isFin:false packet---->1484723052:317875 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(26742) TCP 8888 > 57323 seq(2588656351) win(123) ack 2261643718  P
+2017-01-18 15:05:15  [ Thread-2:132796 ] - [ DEBUG ]  sequence:2588656383 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132797 ] - [ DEBUG ]  isFin:false packet---->1484723052:317897 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(26743) TCP 8888 > 57323 seq(2588656383) win(123) ack 2261643718 
+2017-01-18 15:05:15  [ Thread-2:132797 ] - [ DEBUG ]  sequence:2261643718 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132797 ] - [ DEBUG ]  isFin:false packet---->1484723052:317916 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1271) TCP 57323 > 8888 seq(2261643718) win(69) ack 2588657743 
+2017-01-18 15:05:15  [ Thread-2:132797 ] - [ DEBUG ]  sequence:2588657743 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132797 ] - [ DEBUG ]  isFin:false packet---->1484723052:317965 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(26744) TCP 8888 > 57323 seq(2588657743) win(123) ack 2261643718 
+2017-01-18 15:05:15  [ Thread-2:132798 ] - [ DEBUG ]  sequence:2588659103 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132798 ] - [ DEBUG ]  isFin:false packet---->1484723052:325337 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(26745) TCP 8888 > 57323 seq(2588659103) win(123) ack 2261643718  P
+2017-01-18 15:05:15  [ Thread-2:132798 ] - [ DEBUG ]  sequence:2261643718 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132798 ] - [ DEBUG ]  isFin:false packet---->1484723052:325441 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1272) TCP 57323 > 8888 seq(2261643718) win(69) ack 2588659560 
+2017-01-18 15:05:15  [ Thread-2:132798 ] - [ DEBUG ]  sequence:2731076689 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132798 ] - [ DEBUG ]  isFin:false packet---->1484723055:13488 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1273) TCP 57319 > 8888 seq(2731076689) win(8192)  S
+2017-01-18 15:05:15  [ Thread-2:132799 ] - [ DEBUG ]  sequence:658156313 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132799 ] - [ DEBUG ]  isFin:false packet---->1484723055:22533 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1274) TCP 57322 > 8888 seq(658156313) win(8192)  S
+2017-01-18 15:05:15  [ Thread-2:132799 ] - [ DEBUG ]  sequence:4116329928 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132799 ] - [ DEBUG ]  isFin:false packet---->1484723055:23527 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1275) TCP 57320 > 8888 seq(4116329928) win(8192)  S
+2017-01-18 15:05:15  [ Thread-2:132799 ] - [ DEBUG ]  sequence:3570057654 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132799 ] - [ DEBUG ]  isFin:false packet---->1484723055:23553 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1276) TCP 57321 > 8888 seq(3570057654) win(8192)  S
+2017-01-18 15:05:15  [ Thread-2:132800 ] - [ DEBUG ]  sequence:3721628434 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132800 ] - [ DEBUG ]  isFin:false packet---->1484723055:26310 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57319 seq(3721628434) win(14600) ack 2731076690  S
+2017-01-18 15:05:15  [ Thread-2:132800 ] - [ DEBUG ]  sequence:2731076690 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132800 ] - [ DEBUG ]  isFin:false packet---->1484723055:26381 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1277) TCP 57319 > 8888 seq(2731076690) win(69) ack 3721628435 
+2017-01-18 15:05:15  [ Thread-2:132800 ] - [ DEBUG ]  sequence:2505586158 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132800 ] - [ DEBUG ]  isFin:false packet---->1484723055:29368 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57322 seq(2505586158) win(14600) ack 658156314  S
+2017-01-18 15:05:15  [ Thread-2:132801 ] - [ DEBUG ]  sequence:658156314 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132801 ] - [ DEBUG ]  isFin:false packet---->1484723055:29475 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1278) TCP 57322 > 8888 seq(658156314) win(69) ack 2505586159 
+2017-01-18 15:05:15  [ Thread-2:132801 ] - [ DEBUG ]  sequence:934082850 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132801 ] - [ DEBUG ]  isFin:false packet---->1484723055:30155 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57320 seq(934082850) win(14600) ack 4116329929  S
+2017-01-18 15:05:15  [ Thread-2:132801 ] - [ DEBUG ]  sequence:4116329929 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132801 ] - [ DEBUG ]  isFin:false packet---->1484723055:30259 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1279) TCP 57320 > 8888 seq(4116329929) win(69) ack 934082851 
+2017-01-18 15:05:15  [ Thread-2:132802 ] - [ DEBUG ]  sequence:1415426496 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132802 ] - [ DEBUG ]  isFin:false packet---->1484723055:30749 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57321 seq(1415426496) win(14600) ack 3570057655  S
+2017-01-18 15:05:15  [ Thread-2:132802 ] - [ DEBUG ]  sequence:3570057655 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132802 ] - [ DEBUG ]  isFin:false packet---->1484723055:30830 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1280) TCP 57321 > 8888 seq(3570057655) win(69) ack 1415426497 
+2017-01-18 15:05:15  [ Thread-2:132802 ] - [ DEBUG ]  sequence:3866473000 id---->2261643718 fin---->true
+2017-01-18 15:05:15  [ Thread-2:132802 ] - [ DEBUG ]  isFin:false packet---->1484723073:55328 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(30859) TCP 8888 > 57324 seq(3866473000) win(115) ack 3154126975  F
+2017-01-18 15:05:15  [ Thread-2:132802 ] - [ DEBUG ]  sequence:3154126975 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132803 ] - [ DEBUG ]  isFin:false packet---->1484723073:55423 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1281) TCP 57324 > 8888 seq(3154126975) win(69) ack 3866473001 
+2017-01-18 15:05:15  [ Thread-2:132803 ] - [ DEBUG ]  sequence:2588659560 id---->2261643718 fin---->true
+2017-01-18 15:05:15  [ Thread-2:132803 ] - [ DEBUG ]  isFin:false packet---->1484723073:59371 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(26746) TCP 8888 > 57323 seq(2588659560) win(123) ack 2261643718  F
+2017-01-18 15:05:15  [ Thread-2:132803 ] - [ DEBUG ]  sequence:2261643718 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132803 ] - [ DEBUG ]  isFin:false packet---->1484723073:59446 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1282) TCP 57323 > 8888 seq(2261643718) win(69) ack 2588659561 
+2017-01-18 15:05:15  [ Thread-2:132803 ] - [ DEBUG ]  sequence:2505586159 id---->2261643718 fin---->true
+2017-01-18 15:05:15  [ Thread-2:132803 ] - [ DEBUG ]  isFin:false packet---->1484723075:61278 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(57350) TCP 8888 > 57322 seq(2505586159) win(115) ack 658156314  F
+2017-01-18 15:05:15  [ Thread-2:132804 ] - [ DEBUG ]  sequence:658156314 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132805 ] - [ DEBUG ]  isFin:false packet---->1484723075:61376 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1283) TCP 57322 > 8888 seq(658156314) win(69) ack 2505586160 
+2017-01-18 15:05:15  [ Thread-2:132805 ] - [ DEBUG ]  sequence:1415426497 id---->2261643718 fin---->true
+2017-01-18 15:05:15  [ Thread-2:132805 ] - [ DEBUG ]  isFin:false packet---->1484723075:62073 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(25640) TCP 8888 > 57321 seq(1415426497) win(115) ack 3570057655  F
+2017-01-18 15:05:15  [ Thread-2:132805 ] - [ DEBUG ]  sequence:3570057655 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132805 ] - [ DEBUG ]  isFin:false packet---->1484723075:62134 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1284) TCP 57321 > 8888 seq(3570057655) win(69) ack 1415426498 
+2017-01-18 15:05:15  [ Thread-2:132805 ] - [ DEBUG ]  sequence:3721628435 id---->2261643718 fin---->true
+2017-01-18 15:05:15  [ Thread-2:132806 ] - [ DEBUG ]  isFin:false packet---->1484723075:62247 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(24310) TCP 8888 > 57319 seq(3721628435) win(115) ack 2731076690  F
+2017-01-18 15:05:15  [ Thread-2:132806 ] - [ DEBUG ]  sequence:2731076690 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132806 ] - [ DEBUG ]  isFin:false packet---->1484723075:62279 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1285) TCP 57319 > 8888 seq(2731076690) win(69) ack 3721628436 
+2017-01-18 15:05:15  [ Thread-2:132806 ] - [ DEBUG ]  sequence:934082851 id---->2261643718 fin---->true
+2017-01-18 15:05:15  [ Thread-2:132806 ] - [ DEBUG ]  isFin:false packet---->1484723075:62403 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(11466) TCP 8888 > 57320 seq(934082851) win(115) ack 4116329929  F
+2017-01-18 15:05:15  [ Thread-2:132806 ] - [ DEBUG ]  sequence:4116329929 id---->2261643718 fin---->false
+2017-01-18 15:05:15  [ Thread-2:132806 ] - [ DEBUG ]  isFin:false packet---->1484723075:62431 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1286) TCP 57320 > 8888 seq(4116329929) win(69) ack 934082852 
+2017-01-18 15:05:18  [ Thread-2:135508 ] - [ DEBUG ]  sequence:3154126974 id---->2261643718 fin---->false
+2017-01-18 15:05:18  [ Thread-2:135508 ] - [ DEBUG ]  isFin:false packet---->1484723118:56541 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1291) TCP 57324 > 8888 seq(3154126974) win(69) ack 3866473001 
+2017-01-18 15:05:18  [ Thread-2:135508 ] - [ DEBUG ]  sequence:2261643717 id---->2261643718 fin---->false
+2017-01-18 15:05:18  [ Thread-2:135509 ] - [ DEBUG ]  isFin:false packet---->1484723118:58546 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1292) TCP 57323 > 8888 seq(2261643717) win(69) ack 2588659561 
+2017-01-18 15:05:18  [ Thread-2:135609 ] - [ DEBUG ]  sequence:3866473001 id---->2261643718 fin---->false
+2017-01-18 15:05:18  [ Thread-2:135609 ] - [ DEBUG ]  isFin:false packet---->1484723118:148342 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57324 seq(3866473001) win(0)  R
+2017-01-18 15:05:18  [ Thread-2:135609 ] - [ DEBUG ]  sequence:2588659561 id---->2261643718 fin---->false
+2017-01-18 15:05:18  [ Thread-2:135609 ] - [ DEBUG ]  isFin:false packet---->1484723118:148374 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57323 seq(2588659561) win(0)  R
+2017-01-18 15:05:18  [ Thread-2:135859 ] - [ DEBUG ]  sequence:2731076690 id---->2261643718 fin---->true
+2017-01-18 15:05:18  [ Thread-2:135859 ] - [ DEBUG ]  isFin:false packet---->1484723118:422251 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1293) TCP 57319 > 8888 seq(2731076690) win(69) ack 3721628436  F
+2017-01-18 15:05:18  [ Thread-2:135859 ] - [ DEBUG ]  sequence:658156314 id---->2261643718 fin---->true
+2017-01-18 15:05:18  [ Thread-2:135860 ] - [ DEBUG ]  isFin:false packet---->1484723118:422338 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1294) TCP 57322 > 8888 seq(658156314) win(69) ack 2505586160  F
+2017-01-18 15:05:18  [ Thread-2:135860 ] - [ DEBUG ]  sequence:4116329929 id---->2261643718 fin---->true
+2017-01-18 15:05:18  [ Thread-2:135860 ] - [ DEBUG ]  isFin:false packet---->1484723118:422407 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1295) TCP 57320 > 8888 seq(4116329929) win(69) ack 934082852  F
+2017-01-18 15:05:18  [ Thread-2:135860 ] - [ DEBUG ]  sequence:3570057655 id---->2261643718 fin---->true
+2017-01-18 15:05:18  [ Thread-2:135860 ] - [ DEBUG ]  isFin:false packet---->1484723118:422475 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1296) TCP 57321 > 8888 seq(3570057655) win(69) ack 1415426498  F
+2017-01-18 15:05:18  [ Thread-2:135860 ] - [ DEBUG ]  sequence:3721628436 id---->2261643718 fin---->false
+2017-01-18 15:05:18  [ Thread-2:135860 ] - [ DEBUG ]  isFin:false packet---->1484723118:433604 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57319 seq(3721628436) win(0)  R
+2017-01-18 15:05:18  [ Thread-2:135861 ] - [ DEBUG ]  sequence:2505586160 id---->2261643718 fin---->false
+2017-01-18 15:05:18  [ Thread-2:135861 ] - [ DEBUG ]  isFin:false packet---->1484723118:434331 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57322 seq(2505586160) win(0)  R
+2017-01-18 15:05:18  [ Thread-2:135911 ] - [ DEBUG ]  sequence:934082852 id---->2261643718 fin---->false
+2017-01-18 15:05:18  [ Thread-2:135911 ] - [ DEBUG ]  isFin:false packet---->1484723118:437117 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57320 seq(934082852) win(0)  R
+2017-01-18 15:05:18  [ Thread-2:135911 ] - [ DEBUG ]  sequence:1415426498 id---->2261643718 fin---->false
+2017-01-18 15:05:18  [ Thread-2:135911 ] - [ DEBUG ]  isFin:false packet---->1484723118:439273 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57321 seq(1415426498) win(0)  R
+2017-01-18 15:05:21  [ Thread-2:139020 ] - [ DEBUG ]  sequence:3391096050 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139020 ] - [ DEBUG ]  isFin:false packet---->1484723121:582180 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1297) TCP 57326 > 8888 seq(3391096050) win(8192)  S
+2017-01-18 15:05:21  [ Thread-2:139021 ] - [ DEBUG ]  sequence:3483376977 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139021 ] - [ DEBUG ]  isFin:false packet---->1484723121:582875 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1298) TCP 57327 > 8888 seq(3483376977) win(8192)  S
+2017-01-18 15:05:21  [ Thread-2:139021 ] - [ DEBUG ]  sequence:986591825 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139021 ] - [ DEBUG ]  isFin:false packet---->1484723121:583260 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1299) TCP 57328 > 8888 seq(986591825) win(8192)  S
+2017-01-18 15:05:21  [ Thread-2:139021 ] - [ DEBUG ]  sequence:3644215402 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139022 ] - [ DEBUG ]  isFin:false packet---->1484723121:583624 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1300) TCP 57329 > 8888 seq(3644215402) win(8192)  S
+2017-01-18 15:05:21  [ Thread-2:139022 ] - [ DEBUG ]  sequence:4126899008 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139022 ] - [ DEBUG ]  isFin:false packet---->1484723121:584018 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1301) TCP 57330 > 8888 seq(4126899008) win(8192)  S
+2017-01-18 15:05:21  [ Thread-2:139022 ] - [ DEBUG ]  sequence:3182876731 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139023 ] - [ DEBUG ]  isFin:false packet---->1484723121:584375 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1302) TCP 57331 > 8888 seq(3182876731) win(8192)  S
+2017-01-18 15:05:21  [ Thread-2:139023 ] - [ DEBUG ]  sequence:2971743497 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139023 ] - [ DEBUG ]  isFin:false packet---->1484723121:595267 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57326 seq(2971743497) win(14600) ack 3391096051  S
+2017-01-18 15:05:21  [ Thread-2:139023 ] - [ DEBUG ]  sequence:3391096051 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139023 ] - [ DEBUG ]  isFin:false packet---->1484723121:595365 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1303) TCP 57326 > 8888 seq(3391096051) win(69) ack 2971743498 
+2017-01-18 15:05:21  [ Thread-2:139023 ] - [ DEBUG ]  sequence:2959636814 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139023 ] - [ DEBUG ]  isFin:false packet---->1484723121:595424 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57327 seq(2959636814) win(14600) ack 3483376978  S
+2017-01-18 15:05:21  [ Thread-2:139023 ] - [ DEBUG ]  sequence:3483376978 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139024 ] - [ DEBUG ]  isFin:false packet---->1484723121:595456 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1304) TCP 57327 > 8888 seq(3483376978) win(69) ack 2959636815 
+2017-01-18 15:05:21  [ Thread-2:139024 ] - [ DEBUG ]  sequence:571186702 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139024 ] - [ DEBUG ]  isFin:false packet---->1484723121:595488 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57328 seq(571186702) win(14600) ack 986591826  S
+2017-01-18 15:05:21  [ Thread-2:139024 ] - [ DEBUG ]  sequence:986591826 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139025 ] - [ DEBUG ]  isFin:false packet---->1484723121:595517 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1305) TCP 57328 > 8888 seq(986591826) win(69) ack 571186703 
+2017-01-18 15:05:21  [ Thread-2:139026 ] - [ DEBUG ]  sequence:1660866001 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139026 ] - [ DEBUG ]  isFin:false packet---->1484723121:595546 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57329 seq(1660866001) win(14600) ack 3644215403  S
+2017-01-18 15:05:21  [ Thread-2:139026 ] - [ DEBUG ]  sequence:3644215403 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139027 ] - [ DEBUG ]  isFin:false packet---->1484723121:595573 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1306) TCP 57329 > 8888 seq(3644215403) win(69) ack 1660866002 
+2017-01-18 15:05:21  [ Thread-2:139027 ] - [ DEBUG ]  sequence:2353333412 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139027 ] - [ DEBUG ]  isFin:false packet---->1484723121:595606 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57330 seq(2353333412) win(14600) ack 4126899009  S
+2017-01-18 15:05:21  [ Thread-2:139027 ] - [ DEBUG ]  sequence:4126899009 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139027 ] - [ DEBUG ]  isFin:false packet---->1484723121:595634 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1307) TCP 57330 > 8888 seq(4126899009) win(69) ack 2353333413 
+2017-01-18 15:05:21  [ Thread-2:139027 ] - [ DEBUG ]  sequence:1054743537 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139027 ] - [ DEBUG ]  isFin:false packet---->1484723121:595657 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57331 seq(1054743537) win(14600) ack 3182876732  S
+2017-01-18 15:05:21  [ Thread-2:139027 ] - [ DEBUG ]  sequence:3182876732 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139027 ] - [ DEBUG ]  isFin:false packet---->1484723121:595686 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1308) TCP 57331 > 8888 seq(3182876732) win(69) ack 1054743538 
+2017-01-18 15:05:21  [ Thread-2:139050 ] - [ DEBUG ]  sequence:3391096051 id---->2261643718 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139050 ] - [ DEBUG ]  isFin:false packet---->1484723121:601173 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1309) TCP 57326 > 8888 seq(3391096051) win(69) ack 2971743498  P
+2017-01-18 15:05:21  [ Thread-2:139052 ] - [ DEBUG ]  sequence:2971743498 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139052 ] - [ DEBUG ]  isFin:false packet---->1484723121:618195 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(60666) TCP 8888 > 57326 seq(2971743498) win(123) ack 3391096457 
+2017-01-18 15:05:21  [ Thread-2:139052 ] - [ DEBUG ]  sequence:2971743498 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139052 ] - [ DEBUG ]  isFin:false packet---->1484723121:622437 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(60667) TCP 8888 > 57326 seq(2971743498) win(123) ack 3391096457 
+2017-01-18 15:05:21  [ Thread-2:139052 ] - [ DEBUG ]  sequence:2971744858 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139053 ] - [ DEBUG ]  isFin:false packet---->1484723121:622542 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(60668) TCP 8888 > 57326 seq(2971744858) win(123) ack 3391096457 
+2017-01-18 15:05:21  [ Thread-2:139053 ] - [ DEBUG ]  sequence:3391096457 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139053 ] - [ DEBUG ]  isFin:false packet---->1484723121:622575 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1310) TCP 57326 > 8888 seq(3391096457) win(69) ack 2971746218 
+2017-01-18 15:05:21  [ Thread-2:139053 ] - [ DEBUG ]  sequence:2971746218 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139053 ] - [ DEBUG ]  isFin:false packet---->1484723121:623438 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(60669) TCP 8888 > 57326 seq(2971746218) win(123) ack 3391096457 
+2017-01-18 15:05:21  [ Thread-2:139053 ] - [ DEBUG ]  sequence:2971747578 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139054 ] - [ DEBUG ]  isFin:false packet---->1484723121:623535 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(60670) TCP 8888 > 57326 seq(2971747578) win(123) ack 3391096457 
+2017-01-18 15:05:21  [ Thread-2:139054 ] - [ DEBUG ]  sequence:3391096457 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139054 ] - [ DEBUG ]  isFin:false packet---->1484723121:623566 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1311) TCP 57326 > 8888 seq(3391096457) win(69) ack 2971748938 
+2017-01-18 15:05:21  [ Thread-2:139054 ] - [ DEBUG ]  sequence:2971748938 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139055 ] - [ DEBUG ]  isFin:false packet---->1484723121:623616 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(60671) TCP 8888 > 57326 seq(2971748938) win(123) ack 3391096457 
+2017-01-18 15:05:21  [ Thread-2:139109 ] - [ DEBUG ]  sequence:2971750298 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139110 ] - [ DEBUG ]  isFin:false packet---->1484723121:639109 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(60672) TCP 8888 > 57326 seq(2971750298) win(123) ack 3391096457 
+2017-01-18 15:05:21  [ Thread-2:139115 ] - [ DEBUG ]  sequence:3391096457 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139116 ] - [ DEBUG ]  isFin:false packet---->1484723121:639199 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1312) TCP 57326 > 8888 seq(3391096457) win(69) ack 2971751658 
+2017-01-18 15:05:21  [ Thread-2:139116 ] - [ DEBUG ]  sequence:2971751658 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139120 ] - [ DEBUG ]  isFin:false packet---->1484723121:639341 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(60673) TCP 8888 > 57326 seq(2971751658) win(123) ack 3391096457  P
+2017-01-18 15:05:21  [ Thread-2:139136 ] - [ DEBUG ]  sequence:2971751690 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139136 ] - [ DEBUG ]  isFin:false packet---->1484723121:639366 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(60674) TCP 8888 > 57326 seq(2971751690) win(123) ack 3391096457 
+2017-01-18 15:05:21  [ Thread-2:139151 ] - [ DEBUG ]  sequence:3391096457 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139155 ] - [ DEBUG ]  isFin:false packet---->1484723121:639386 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1313) TCP 57326 > 8888 seq(3391096457) win(69) ack 2971753050 
+2017-01-18 15:05:21  [ Thread-2:139155 ] - [ DEBUG ]  sequence:2971753050 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139155 ] - [ DEBUG ]  isFin:false packet---->1484723121:639716 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(60675) TCP 8888 > 57326 seq(2971753050) win(123) ack 3391096457 
+2017-01-18 15:05:21  [ Thread-2:139156 ] - [ DEBUG ]  sequence:2971754410 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139157 ] - [ DEBUG ]  isFin:false packet---->1484723121:639808 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(60676) TCP 8888 > 57326 seq(2971754410) win(123) ack 3391096457  P
+2017-01-18 15:05:21  [ Thread-2:139157 ] - [ DEBUG ]  sequence:3391096457 id---->3391096457 fin---->false
+2017-01-18 15:05:21  [ Thread-2:139157 ] - [ DEBUG ]  isFin:false packet---->1484723121:639903 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1314) TCP 57326 > 8888 seq(3391096457) win(69) ack 2971754867 
+2017-01-18 15:05:34  [ AWT-EventQueue-0:152202 ] - [ DEBUG ]  Capture Thread is started...
+2017-01-18 15:05:41  [ Thread-2:159073 ] - [ DEBUG ]  sequence:2959636815 id---->3391096457 fin---->true
+2017-01-18 15:05:41  [ Thread-2:159073 ] - [ DEBUG ]  isFin:false packet---->1484723141:632261 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(41151) TCP 8888 > 57327 seq(2959636815) win(115) ack 3483376978  F
+2017-01-18 15:05:41  [ Thread-2:159073 ] - [ DEBUG ]  sequence:3483376978 id---->3391096457 fin---->false
+2017-01-18 15:05:41  [ Thread-2:159075 ] - [ DEBUG ]  isFin:false packet---->1484723141:632313 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1315) TCP 57327 > 8888 seq(3483376978) win(69) ack 2959636816 
+2017-01-18 15:05:41  [ Thread-2:159075 ] - [ DEBUG ]  sequence:1054743538 id---->3391096457 fin---->true
+2017-01-18 15:05:41  [ Thread-2:159075 ] - [ DEBUG ]  isFin:false packet---->1484723141:632489 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(49666) TCP 8888 > 57331 seq(1054743538) win(115) ack 3182876732  F
+2017-01-18 15:05:41  [ Thread-2:159075 ] - [ DEBUG ]  sequence:3182876732 id---->3391096457 fin---->false
+2017-01-18 15:05:41  [ Thread-2:159075 ] - [ DEBUG ]  isFin:false packet---->1484723141:632523 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1316) TCP 57331 > 8888 seq(3182876732) win(69) ack 1054743539 
+2017-01-18 15:05:41  [ Thread-2:159075 ] - [ DEBUG ]  sequence:1660866002 id---->3391096457 fin---->true
+2017-01-18 15:05:41  [ Thread-2:159075 ] - [ DEBUG ]  isFin:false packet---->1484723141:632619 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(5154) TCP 8888 > 57329 seq(1660866002) win(115) ack 3644215403  F
+2017-01-18 15:05:41  [ Thread-2:159075 ] - [ DEBUG ]  sequence:3644215403 id---->3391096457 fin---->false
+2017-01-18 15:05:41  [ Thread-2:159076 ] - [ DEBUG ]  isFin:false packet---->1484723141:632650 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1317) TCP 57329 > 8888 seq(3644215403) win(69) ack 1660866003 
+2017-01-18 15:05:41  [ Thread-2:159076 ] - [ DEBUG ]  sequence:571186703 id---->3391096457 fin---->true
+2017-01-18 15:05:41  [ Thread-2:159076 ] - [ DEBUG ]  isFin:false packet---->1484723141:642135 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(18431) TCP 8888 > 57328 seq(571186703) win(115) ack 986591826  F
+2017-01-18 15:05:41  [ Thread-2:159076 ] - [ DEBUG ]  sequence:986591826 id---->3391096457 fin---->false
+2017-01-18 15:05:41  [ Thread-2:159076 ] - [ DEBUG ]  isFin:false packet---->1484723141:642202 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1318) TCP 57328 > 8888 seq(986591826) win(69) ack 571186704 
+2017-01-18 15:05:41  [ Thread-2:159076 ] - [ DEBUG ]  sequence:2353333413 id---->3391096457 fin---->true
+2017-01-18 15:05:41  [ Thread-2:159076 ] - [ DEBUG ]  isFin:false packet---->1484723141:643703 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(56661) TCP 8888 > 57330 seq(2353333413) win(115) ack 4126899009  F
+2017-01-18 15:05:41  [ Thread-2:159076 ] - [ DEBUG ]  sequence:4126899009 id---->3391096457 fin---->false
+2017-01-18 15:05:41  [ Thread-2:159076 ] - [ DEBUG ]  isFin:false packet---->1484723141:643790 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1319) TCP 57330 > 8888 seq(4126899009) win(69) ack 2353333414 
+2017-01-18 15:05:41  [ Thread-2:159077 ] - [ DEBUG ]  sequence:2971754867 id---->3391096457 fin---->true
+2017-01-18 15:05:41  [ Thread-2:159077 ] - [ DEBUG ]  isFin:false packet---->1484723141:645327 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(60677) TCP 8888 > 57326 seq(2971754867) win(123) ack 3391096457  F
+2017-01-18 15:05:41  [ Thread-2:159077 ] - [ DEBUG ]  sequence:3391096457 id---->3391096457 fin---->false
+2017-01-18 15:05:41  [ Thread-2:159077 ] - [ DEBUG ]  isFin:false packet---->1484723141:645372 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1320) TCP 57326 > 8888 seq(3391096457) win(69) ack 2971754868 
+2017-01-18 15:05:42  [ AWT-EventQueue-0:160069 ] - [ DEBUG ]  Capture Thread is stoped...
+2017-01-18 15:08:15  [ AWT-EventQueue-0:0 ] - [ DEBUG ]  Capture Thread is started...
+2017-01-18 15:08:46  [ Thread-2:30948 ] - [ DEBUG ]  sequence:2650706344 id---->0 fin---->false
+2017-01-18 15:08:47  [ Thread-2:31677 ] - [ DEBUG ]  isFin:false packet---->1484723299:604824 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1336) TCP 57354 > 8888 seq(2650706344) win(8192)  S
+2017-01-18 15:09:00  [ Thread-2:45043 ] - [ DEBUG ]  sequence:2574561130 id---->0 fin---->false
+2017-01-18 15:09:00  [ Thread-2:45043 ] - [ DEBUG ]  isFin:false packet---->1484723299:616869 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57354 seq(2574561130) win(14600) ack 2650706345  S
+2017-01-18 15:09:10  [ Thread-2:55084 ] - [ DEBUG ]  sequence:2650706345 id---->0 fin---->false
+2017-01-18 15:09:10  [ Thread-2:55085 ] - [ DEBUG ]  isFin:false packet---->1484723299:616950 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1337) TCP 57354 > 8888 seq(2650706345) win(69) ack 2574561131 
+2017-01-18 15:09:25  [ Thread-2:70324 ] - [ DEBUG ]  sequence:2650706345 id---->0 fin---->false
+2017-01-18 15:09:25  [ Thread-2:70325 ] - [ DEBUG ]  isFin:false packet---->1484723299:617549 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1338) TCP 57354 > 8888 seq(2650706345) win(69) ack 2574561131  P
+2017-01-18 15:09:42  [ Thread-2:86958 ] - [ DEBUG ]  sequence:2574561131 id---->2650706751 fin---->false
+2017-01-18 15:09:42  [ Thread-2:86958 ] - [ DEBUG ]  isFin:false packet---->1484723299:628254 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(15935) TCP 8888 > 57354 seq(2574561131) win(123) ack 2650706751 
+2017-01-18 15:09:43  [ Thread-2:88235 ] - [ DEBUG ]  sequence:2574561131 id---->2650706751 fin---->false
+2017-01-18 15:09:43  [ Thread-2:88237 ] - [ DEBUG ]  isFin:false packet---->1484723299:628682 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(15936) TCP 8888 > 57354 seq(2574561131) win(123) ack 2650706751 
+2017-01-18 15:09:44  [ Thread-2:89275 ] - [ DEBUG ]  sequence:2574562491 id---->2650706751 fin---->false
+2017-01-18 15:09:44  [ Thread-2:89275 ] - [ DEBUG ]  isFin:false packet---->1484723299:631135 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(15937) TCP 8888 > 57354 seq(2574562491) win(123) ack 2650706751 
+2017-01-18 15:09:45  [ Thread-2:90152 ] - [ DEBUG ]  sequence:2650706751 id---->2650706751 fin---->false
+2017-01-18 15:09:45  [ Thread-2:90153 ] - [ DEBUG ]  isFin:false packet---->1484723299:631217 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1339) TCP 57354 > 8888 seq(2650706751) win(69) ack 2574563851 
+2017-01-18 15:09:51  [ Thread-2:96265 ] - [ DEBUG ]  sequence:2574563851 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96266 ] - [ DEBUG ]  isFin:false packet---->1484723299:631323 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(15938) TCP 8888 > 57354 seq(2574563851) win(123) ack 2650706751 
+2017-01-18 15:09:51  [ Thread-2:96268 ] - [ DEBUG ]  sequence:2574565211 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96268 ] - [ DEBUG ]  isFin:false packet---->1484723299:638443 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(15939) TCP 8888 > 57354 seq(2574565211) win(123) ack 2650706751 
+2017-01-18 15:09:51  [ Thread-2:96268 ] - [ DEBUG ]  sequence:2650706751 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96268 ] - [ DEBUG ]  isFin:false packet---->1484723299:638513 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1340) TCP 57354 > 8888 seq(2650706751) win(69) ack 2574566571 
+2017-01-18 15:09:51  [ Thread-2:96269 ] - [ DEBUG ]  sequence:2574566571 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96269 ] - [ DEBUG ]  isFin:false packet---->1484723299:657537 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(15940) TCP 8888 > 57354 seq(2574566571) win(123) ack 2650706751 
+2017-01-18 15:09:51  [ Thread-2:96318 ] - [ DEBUG ]  sequence:2574567931 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96318 ] - [ DEBUG ]  isFin:false packet---->1484723299:657817 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(15941) TCP 8888 > 57354 seq(2574567931) win(123) ack 2650706751 
+2017-01-18 15:09:51  [ Thread-2:96319 ] - [ DEBUG ]  sequence:2650706751 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96319 ] - [ DEBUG ]  isFin:false packet---->1484723299:657851 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1341) TCP 57354 > 8888 seq(2650706751) win(69) ack 2574569291 
+2017-01-18 15:09:51  [ Thread-2:96319 ] - [ DEBUG ]  sequence:2574569291 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96319 ] - [ DEBUG ]  isFin:false packet---->1484723299:657897 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(15942) TCP 8888 > 57354 seq(2574569291) win(123) ack 2650706751  P
+2017-01-18 15:09:51  [ Thread-2:96320 ] - [ DEBUG ]  sequence:2574569323 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96320 ] - [ DEBUG ]  isFin:false packet---->1484723299:657938 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(15943) TCP 8888 > 57354 seq(2574569323) win(123) ack 2650706751 
+2017-01-18 15:09:51  [ Thread-2:96320 ] - [ DEBUG ]  sequence:2650706751 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96320 ] - [ DEBUG ]  isFin:false packet---->1484723299:657957 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1342) TCP 57354 > 8888 seq(2650706751) win(69) ack 2574570683 
+2017-01-18 15:09:51  [ Thread-2:96320 ] - [ DEBUG ]  sequence:2574570683 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96321 ] - [ DEBUG ]  isFin:false packet---->1484723299:657981 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(15944) TCP 8888 > 57354 seq(2574570683) win(123) ack 2650706751 
+2017-01-18 15:09:51  [ Thread-2:96321 ] - [ DEBUG ]  sequence:2574572043 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96321 ] - [ DEBUG ]  isFin:false packet---->1484723299:660111 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(15945) TCP 8888 > 57354 seq(2574572043) win(123) ack 2650706751  P
+2017-01-18 15:09:51  [ Thread-2:96322 ] - [ DEBUG ]  sequence:2650706751 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96322 ] - [ DEBUG ]  isFin:false packet---->1484723299:660202 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1343) TCP 57354 > 8888 seq(2650706751) win(69) ack 2574572500 
+2017-01-18 15:09:51  [ Thread-2:96372 ] - [ DEBUG ]  sequence:2419774971 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96372 ] - [ DEBUG ]  isFin:false packet---->1484723302:598378 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1344) TCP 57349 > 8888 seq(2419774971) win(8192)  S
+2017-01-18 15:09:51  [ Thread-2:96373 ] - [ DEBUG ]  sequence:2497764630 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96373 ] - [ DEBUG ]  isFin:false packet---->1484723302:600380 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1345) TCP 57350 > 8888 seq(2497764630) win(8192)  S
+2017-01-18 15:09:51  [ Thread-2:96373 ] - [ DEBUG ]  sequence:3616540528 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96373 ] - [ DEBUG ]  isFin:false packet---->1484723302:600406 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1346) TCP 57351 > 8888 seq(3616540528) win(8192)  S
+2017-01-18 15:09:51  [ Thread-2:96373 ] - [ DEBUG ]  sequence:2985255770 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96373 ] - [ DEBUG ]  isFin:false packet---->1484723302:600416 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1347) TCP 57352 > 8888 seq(2985255770) win(8192)  S
+2017-01-18 15:09:51  [ Thread-2:96374 ] - [ DEBUG ]  sequence:621588578 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96374 ] - [ DEBUG ]  isFin:false packet---->1484723302:600424 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1348) TCP 57353 > 8888 seq(621588578) win(8192)  S
+2017-01-18 15:09:51  [ Thread-2:96374 ] - [ DEBUG ]  sequence:2601329184 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96374 ] - [ DEBUG ]  isFin:false packet---->1484723302:606905 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57349 seq(2601329184) win(14600) ack 2419774972  S
+2017-01-18 15:09:51  [ Thread-2:96374 ] - [ DEBUG ]  sequence:2419774972 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96374 ] - [ DEBUG ]  isFin:false packet---->1484723302:606984 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1349) TCP 57349 > 8888 seq(2419774972) win(69) ack 2601329185 
+2017-01-18 15:09:51  [ Thread-2:96375 ] - [ DEBUG ]  sequence:4135555795 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96375 ] - [ DEBUG ]  isFin:false packet---->1484723302:608341 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57350 seq(4135555795) win(14600) ack 2497764631  S
+2017-01-18 15:09:51  [ Thread-2:96375 ] - [ DEBUG ]  sequence:2497764631 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96375 ] - [ DEBUG ]  isFin:false packet---->1484723302:608440 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1350) TCP 57350 > 8888 seq(2497764631) win(69) ack 4135555796 
+2017-01-18 15:09:51  [ Thread-2:96375 ] - [ DEBUG ]  sequence:1811303043 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96375 ] - [ DEBUG ]  isFin:false packet---->1484723302:609217 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57351 seq(1811303043) win(14600) ack 3616540529  S
+2017-01-18 15:09:51  [ Thread-2:96375 ] - [ DEBUG ]  sequence:3616540529 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96376 ] - [ DEBUG ]  isFin:false packet---->1484723302:609325 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1351) TCP 57351 > 8888 seq(3616540529) win(69) ack 1811303044 
+2017-01-18 15:09:51  [ Thread-2:96376 ] - [ DEBUG ]  sequence:3543195744 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96376 ] - [ DEBUG ]  isFin:false packet---->1484723302:612243 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57352 seq(3543195744) win(14600) ack 2985255771  S
+2017-01-18 15:09:51  [ Thread-2:96376 ] - [ DEBUG ]  sequence:2985255771 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96376 ] - [ DEBUG ]  isFin:false packet---->1484723302:612349 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1352) TCP 57352 > 8888 seq(2985255771) win(69) ack 3543195745 
+2017-01-18 15:09:51  [ Thread-2:96376 ] - [ DEBUG ]  sequence:4202059061 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96377 ] - [ DEBUG ]  isFin:false packet---->1484723302:612419 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57353 seq(4202059061) win(14600) ack 621588579  S
+2017-01-18 15:09:51  [ Thread-2:96377 ] - [ DEBUG ]  sequence:621588579 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96377 ] - [ DEBUG ]  isFin:false packet---->1484723302:612449 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1353) TCP 57353 > 8888 seq(621588579) win(69) ack 4202059062 
+2017-01-18 15:09:51  [ Thread-2:96377 ] - [ DEBUG ]  sequence:2574572500 id---->2650706751 fin---->true
+2017-01-18 15:09:51  [ Thread-2:96377 ] - [ DEBUG ]  isFin:false packet---->1484723319:641814 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(15946) TCP 8888 > 57354 seq(2574572500) win(123) ack 2650706751  F
+2017-01-18 15:09:51  [ Thread-2:96377 ] - [ DEBUG ]  sequence:2650706751 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96378 ] - [ DEBUG ]  isFin:false packet---->1484723319:641904 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1354) TCP 57354 > 8888 seq(2650706751) win(69) ack 2574572501 
+2017-01-18 15:09:51  [ Thread-2:96378 ] - [ DEBUG ]  sequence:3543195745 id---->2650706751 fin---->true
+2017-01-18 15:09:51  [ Thread-2:96378 ] - [ DEBUG ]  isFin:false packet---->1484723322:652485 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(32102) TCP 8888 > 57352 seq(3543195745) win(115) ack 2985255771  F
+2017-01-18 15:09:51  [ Thread-2:96378 ] - [ DEBUG ]  sequence:2985255771 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96378 ] - [ DEBUG ]  isFin:false packet---->1484723322:652564 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1355) TCP 57352 > 8888 seq(2985255771) win(69) ack 3543195746 
+2017-01-18 15:09:51  [ Thread-2:96378 ] - [ DEBUG ]  sequence:4135555796 id---->2650706751 fin---->true
+2017-01-18 15:09:51  [ Thread-2:96379 ] - [ DEBUG ]  isFin:false packet---->1484723322:652708 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(4049) TCP 8888 > 57350 seq(4135555796) win(115) ack 2497764631  F
+2017-01-18 15:09:51  [ Thread-2:96379 ] - [ DEBUG ]  sequence:2497764631 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96379 ] - [ DEBUG ]  isFin:false packet---->1484723322:652789 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1356) TCP 57350 > 8888 seq(2497764631) win(69) ack 4135555797 
+2017-01-18 15:09:51  [ Thread-2:96379 ] - [ DEBUG ]  sequence:2601329185 id---->2650706751 fin---->true
+2017-01-18 15:09:51  [ Thread-2:96379 ] - [ DEBUG ]  isFin:false packet---->1484723322:653591 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(48931) TCP 8888 > 57349 seq(2601329185) win(115) ack 2419774972  F
+2017-01-18 15:09:51  [ Thread-2:96379 ] - [ DEBUG ]  sequence:2419774972 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96379 ] - [ DEBUG ]  isFin:false packet---->1484723322:653637 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1357) TCP 57349 > 8888 seq(2419774972) win(69) ack 2601329186 
+2017-01-18 15:09:51  [ Thread-2:96380 ] - [ DEBUG ]  sequence:4202059062 id---->2650706751 fin---->true
+2017-01-18 15:09:51  [ Thread-2:96380 ] - [ DEBUG ]  isFin:false packet---->1484723322:653667 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(51262) TCP 8888 > 57353 seq(4202059062) win(115) ack 621588579  F
+2017-01-18 15:09:51  [ Thread-2:96380 ] - [ DEBUG ]  sequence:621588579 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96380 ] - [ DEBUG ]  isFin:false packet---->1484723322:653689 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1358) TCP 57353 > 8888 seq(621588579) win(69) ack 4202059063 
+2017-01-18 15:09:51  [ Thread-2:96380 ] - [ DEBUG ]  sequence:1811303044 id---->2650706751 fin---->true
+2017-01-18 15:09:51  [ Thread-2:96380 ] - [ DEBUG ]  isFin:false packet---->1484723322:653806 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(55169) TCP 8888 > 57351 seq(1811303044) win(115) ack 3616540529  F
+2017-01-18 15:09:51  [ Thread-2:96381 ] - [ DEBUG ]  sequence:3616540529 id---->2650706751 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96381 ] - [ DEBUG ]  isFin:false packet---->1484723322:653856 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1359) TCP 57351 > 8888 seq(3616540529) win(69) ack 1811303045 
+2017-01-18 15:09:51  [ Thread-2:96381 ] - [ DEBUG ]  sequence:2650706751 id---->2650706751 fin---->true
+2017-01-18 15:09:51  [ Thread-2:96381 ] - [ DEBUG ]  isFin:true packet---->1484723358:422638 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1364) TCP 57354 > 8888 seq(2650706751) win(69) ack 2574572501  F
+2017-01-18 15:09:51  [ Thread-2:96382 ] - [ DEBUG ]  begin to show and save data...
+2017-01-18 15:09:51  [ Thread-2:96403 ] - [ DEBUG ]  sequence:2419774972 id---->-1 fin---->true
+2017-01-18 15:09:51  [ Thread-2:96403 ] - [ DEBUG ]  isFin:false packet---->1484723358:422790 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1365) TCP 57349 > 8888 seq(2419774972) win(69) ack 2601329186  F
+2017-01-18 15:09:51  [ Thread-2:96404 ] - [ DEBUG ]  sequence:2497764631 id---->-1 fin---->true
+2017-01-18 15:09:51  [ Thread-2:96404 ] - [ DEBUG ]  isFin:false packet---->1484723358:422860 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1366) TCP 57350 > 8888 seq(2497764631) win(69) ack 4135555797  F
+2017-01-18 15:09:51  [ Thread-2:96404 ] - [ DEBUG ]  sequence:3616540529 id---->-1 fin---->true
+2017-01-18 15:09:51  [ Thread-2:96404 ] - [ DEBUG ]  isFin:false packet---->1484723358:422932 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1367) TCP 57351 > 8888 seq(3616540529) win(69) ack 1811303045  F
+2017-01-18 15:09:51  [ Thread-2:96404 ] - [ DEBUG ]  sequence:2985255771 id---->-1 fin---->true
+2017-01-18 15:09:51  [ Thread-2:96404 ] - [ DEBUG ]  isFin:false packet---->1484723358:422997 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1368) TCP 57352 > 8888 seq(2985255771) win(69) ack 3543195746  F
+2017-01-18 15:09:51  [ Thread-2:96404 ] - [ DEBUG ]  sequence:621588579 id---->-1 fin---->true
+2017-01-18 15:09:51  [ Thread-2:96405 ] - [ DEBUG ]  isFin:false packet---->1484723358:423064 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1369) TCP 57353 > 8888 seq(621588579) win(69) ack 4202059063  F
+2017-01-18 15:09:51  [ Thread-2:96405 ] - [ DEBUG ]  sequence:2574572501 id---->-1 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96405 ] - [ DEBUG ]  isFin:false packet---->1484723358:431068 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57354 seq(2574572501) win(0)  R
+2017-01-18 15:09:51  [ Thread-2:96405 ] - [ DEBUG ]  sequence:2601329186 id---->-1 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96405 ] - [ DEBUG ]  isFin:false packet---->1484723358:431118 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57349 seq(2601329186) win(0)  R
+2017-01-18 15:09:51  [ Thread-2:96405 ] - [ DEBUG ]  sequence:4135555797 id---->-1 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96406 ] - [ DEBUG ]  isFin:false packet---->1484723358:431137 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57350 seq(4135555797) win(0)  R
+2017-01-18 15:09:51  [ Thread-2:96406 ] - [ DEBUG ]  sequence:1811303045 id---->-1 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96406 ] - [ DEBUG ]  isFin:false packet---->1484723358:431156 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57351 seq(1811303045) win(0)  R
+2017-01-18 15:09:51  [ Thread-2:96406 ] - [ DEBUG ]  sequence:3543195746 id---->-1 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96406 ] - [ DEBUG ]  isFin:false packet---->1484723358:431175 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57352 seq(3543195746) win(0)  R
+2017-01-18 15:09:51  [ Thread-2:96406 ] - [ DEBUG ]  sequence:4202059063 id---->-1 fin---->false
+2017-01-18 15:09:51  [ Thread-2:96406 ] - [ DEBUG ]  isFin:false packet---->1484723358:431265 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57353 seq(4202059063) win(0)  R
+2017-01-18 15:09:51  [ Thread-3:96407 ] - [ DEBUG ]  wait...
+2017-01-18 15:10:05  [ Thread-3:110267 ] - [ DEBUG ]  dao.HttpDataBean@1a397769
+2017-01-18 15:10:05  [ Thread-3:110494 ] - [ DEBUG ]  sourceFile:data\172.23.31.151-8888.xls; targetFile:D:\workspace\JavaNetCap\data\172.23.31.151-8888-temp.xls
+2017-01-18 15:12:10  [ Thread-2:235548 ] - [ DEBUG ]  sequence:4272595015 id---->-1 fin---->false
+2017-01-18 15:12:10  [ Thread-2:235548 ] - [ DEBUG ]  isFin:false packet---->1484723530:969584 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1374) TCP 57441 > 8888 seq(4272595015) win(8192)  S
+2017-01-18 15:12:10  [ Thread-2:235549 ] - [ DEBUG ]  sequence:507864789 id---->-1 fin---->false
+2017-01-18 15:12:10  [ Thread-2:235549 ] - [ DEBUG ]  isFin:false packet---->1484723530:970235 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1375) TCP 57442 > 8888 seq(507864789) win(8192)  S
+2017-01-18 15:12:11  [ Thread-2:235599 ] - [ DEBUG ]  sequence:1934462284 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235599 ] - [ DEBUG ]  isFin:false packet---->1484723530:971030 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1376) TCP 57443 > 8888 seq(1934462284) win(8192)  S
+2017-01-18 15:12:11  [ Thread-2:235600 ] - [ DEBUG ]  sequence:4108206998 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235600 ] - [ DEBUG ]  isFin:false packet---->1484723530:972257 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1377) TCP 57444 > 8888 seq(4108206998) win(8192)  S
+2017-01-18 15:12:11  [ Thread-2:235600 ] - [ DEBUG ]  sequence:3418570104 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235600 ] - [ DEBUG ]  isFin:false packet---->1484723530:972957 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1378) TCP 57445 > 8888 seq(3418570104) win(8192)  S
+2017-01-18 15:12:11  [ Thread-2:235600 ] - [ DEBUG ]  sequence:1263008392 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235601 ] - [ DEBUG ]  isFin:false packet---->1484723530:973618 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1379) TCP 57446 > 8888 seq(1263008392) win(8192)  S
+2017-01-18 15:12:11  [ Thread-2:235601 ] - [ DEBUG ]  sequence:4257081027 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235602 ] - [ DEBUG ]  isFin:false packet---->1484723530:979366 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57441 seq(4257081027) win(14600) ack 4272595016  S
+2017-01-18 15:12:11  [ Thread-2:235602 ] - [ DEBUG ]  sequence:4272595016 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235602 ] - [ DEBUG ]  isFin:false packet---->1484723530:979433 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1380) TCP 57441 > 8888 seq(4272595016) win(69) ack 4257081028 
+2017-01-18 15:12:11  [ Thread-2:235602 ] - [ DEBUG ]  sequence:379587143 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235602 ] - [ DEBUG ]  isFin:false packet---->1484723530:979828 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57442 seq(379587143) win(14600) ack 507864790  S
+2017-01-18 15:12:11  [ Thread-2:235602 ] - [ DEBUG ]  sequence:507864790 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235602 ] - [ DEBUG ]  isFin:false packet---->1484723530:979899 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1381) TCP 57442 > 8888 seq(507864790) win(69) ack 379587144 
+2017-01-18 15:12:11  [ Thread-2:235603 ] - [ DEBUG ]  sequence:2164531124 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235603 ] - [ DEBUG ]  isFin:false packet---->1484723530:981219 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57443 seq(2164531124) win(14600) ack 1934462285  S
+2017-01-18 15:12:11  [ Thread-2:235604 ] - [ DEBUG ]  sequence:1934462285 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235604 ] - [ DEBUG ]  isFin:false packet---->1484723530:981318 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1382) TCP 57443 > 8888 seq(1934462285) win(69) ack 2164531125 
+2017-01-18 15:12:11  [ Thread-2:235604 ] - [ DEBUG ]  sequence:4237544301 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235604 ] - [ DEBUG ]  isFin:false packet---->1484723530:984102 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57444 seq(4237544301) win(14600) ack 4108206999  S
+2017-01-18 15:12:11  [ Thread-2:235604 ] - [ DEBUG ]  sequence:4108206999 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235605 ] - [ DEBUG ]  isFin:false packet---->1484723530:984173 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1383) TCP 57444 > 8888 seq(4108206999) win(69) ack 4237544302 
+2017-01-18 15:12:11  [ Thread-2:235605 ] - [ DEBUG ]  sequence:100897714 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235605 ] - [ DEBUG ]  isFin:false packet---->1484723530:984388 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57445 seq(100897714) win(14600) ack 3418570105  S
+2017-01-18 15:12:11  [ Thread-2:235605 ] - [ DEBUG ]  sequence:3418570105 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235605 ] - [ DEBUG ]  isFin:false packet---->1484723530:984434 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1384) TCP 57445 > 8888 seq(3418570105) win(69) ack 100897715 
+2017-01-18 15:12:11  [ Thread-2:235605 ] - [ DEBUG ]  sequence:2924699334 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235605 ] - [ DEBUG ]  isFin:false packet---->1484723530:984840 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57446 seq(2924699334) win(14600) ack 1263008393  S
+2017-01-18 15:12:11  [ Thread-2:235605 ] - [ DEBUG ]  sequence:1263008393 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235606 ] - [ DEBUG ]  isFin:false packet---->1484723530:984913 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1385) TCP 57446 > 8888 seq(1263008393) win(69) ack 2924699335 
+2017-01-18 15:12:11  [ Thread-2:235607 ] - [ DEBUG ]  sequence:4272595016 id---->-1 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235608 ] - [ DEBUG ]  isFin:false packet---->1484723530:990839 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1386) TCP 57441 > 8888 seq(4272595016) win(69) ack 4257081028  P
+2017-01-18 15:12:11  [ Thread-2:235608 ] - [ DEBUG ]  sequence:4257081028 id---->4272595409 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235608 ] - [ DEBUG ]  isFin:false packet---->1484723531:2023 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(65497) TCP 8888 > 57441 seq(4257081028) win(123) ack 4272595409 
+2017-01-18 15:12:11  [ Thread-2:235658 ] - [ DEBUG ]  sequence:4257081028 id---->4272595409 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235658 ] - [ DEBUG ]  isFin:false packet---->1484723531:29401 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(65498) TCP 8888 > 57441 seq(4257081028) win(123) ack 4272595409 
+2017-01-18 15:12:11  [ Thread-2:235659 ] - [ DEBUG ]  sequence:4257082388 id---->4272595409 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235660 ] - [ DEBUG ]  isFin:false packet---->1484723531:31348 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(65499) TCP 8888 > 57441 seq(4257082388) win(123) ack 4272595409 
+2017-01-18 15:12:11  [ Thread-2:235661 ] - [ DEBUG ]  sequence:4272595409 id---->4272595409 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235661 ] - [ DEBUG ]  isFin:false packet---->1484723531:31439 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1387) TCP 57441 > 8888 seq(4272595409) win(69) ack 4257083748 
+2017-01-18 15:12:11  [ Thread-2:235661 ] - [ DEBUG ]  sequence:4257083748 id---->4272595409 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235661 ] - [ DEBUG ]  isFin:false packet---->1484723531:31953 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(65500) TCP 8888 > 57441 seq(4257083748) win(123) ack 4272595409  P
+2017-01-18 15:12:11  [ Thread-2:235812 ] - [ DEBUG ]  sequence:4272595409 id---->4272595409 fin---->false
+2017-01-18 15:12:11  [ Thread-2:235812 ] - [ DEBUG ]  isFin:false packet---->1484723531:228676 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1388) TCP 57441 > 8888 seq(4272595409) win(68) ack 4257083803 
+2017-01-18 15:12:31  [ Thread-2:255613 ] - [ DEBUG ]  sequence:379587144 id---->4272595409 fin---->true
+2017-01-18 15:12:31  [ Thread-2:255613 ] - [ DEBUG ]  isFin:false packet---->1484723551:12305 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(4949) TCP 8888 > 57442 seq(379587144) win(115) ack 507864790  F
+2017-01-18 15:12:31  [ Thread-2:255613 ] - [ DEBUG ]  sequence:507864790 id---->4272595409 fin---->false
+2017-01-18 15:12:31  [ Thread-2:255613 ] - [ DEBUG ]  isFin:false packet---->1484723551:12356 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1390) TCP 57442 > 8888 seq(507864790) win(69) ack 379587145 
+2017-01-18 15:12:31  [ Thread-2:255614 ] - [ DEBUG ]  sequence:2924699335 id---->4272595409 fin---->true
+2017-01-18 15:12:31  [ Thread-2:255614 ] - [ DEBUG ]  isFin:false packet---->1484723551:12790 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(18405) TCP 8888 > 57446 seq(2924699335) win(115) ack 1263008393  F
+2017-01-18 15:12:31  [ Thread-2:255614 ] - [ DEBUG ]  sequence:1263008393 id---->4272595409 fin---->false
+2017-01-18 15:12:31  [ Thread-2:255614 ] - [ DEBUG ]  isFin:false packet---->1484723551:12834 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1391) TCP 57446 > 8888 seq(1263008393) win(69) ack 2924699336 
+2017-01-18 15:12:31  [ Thread-2:255614 ] - [ DEBUG ]  sequence:4237544302 id---->4272595409 fin---->true
+2017-01-18 15:12:31  [ Thread-2:255614 ] - [ DEBUG ]  isFin:false packet---->1484723551:13336 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(53839) TCP 8888 > 57444 seq(4237544302) win(115) ack 4108206999  F
+2017-01-18 15:12:31  [ Thread-2:255614 ] - [ DEBUG ]  sequence:4108206999 id---->4272595409 fin---->false
+2017-01-18 15:12:31  [ Thread-2:255614 ] - [ DEBUG ]  isFin:false packet---->1484723551:13415 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1392) TCP 57444 > 8888 seq(4108206999) win(69) ack 4237544303 
+2017-01-18 15:12:31  [ Thread-2:255664 ] - [ DEBUG ]  sequence:2164531125 id---->4272595409 fin---->true
+2017-01-18 15:12:31  [ Thread-2:255664 ] - [ DEBUG ]  isFin:false packet---->1484723551:41002 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(1707) TCP 8888 > 57443 seq(2164531125) win(115) ack 1934462285  F
+2017-01-18 15:12:31  [ Thread-2:255664 ] - [ DEBUG ]  sequence:1934462285 id---->4272595409 fin---->false
+2017-01-18 15:12:31  [ Thread-2:255664 ] - [ DEBUG ]  isFin:false packet---->1484723551:41108 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1393) TCP 57443 > 8888 seq(1934462285) win(69) ack 2164531126 
+2017-01-18 15:12:31  [ Thread-2:255664 ] - [ DEBUG ]  sequence:100897715 id---->4272595409 fin---->true
+2017-01-18 15:12:31  [ Thread-2:255664 ] - [ DEBUG ]  isFin:false packet---->1484723551:41853 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(35474) TCP 8888 > 57445 seq(100897715) win(115) ack 3418570105  F
+2017-01-18 15:12:31  [ Thread-2:255665 ] - [ DEBUG ]  sequence:3418570105 id---->4272595409 fin---->false
+2017-01-18 15:12:31  [ Thread-2:255665 ] - [ DEBUG ]  isFin:false packet---->1484723551:41966 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1394) TCP 57445 > 8888 seq(3418570105) win(69) ack 100897716 
+2017-01-18 15:12:31  [ Thread-2:255665 ] - [ DEBUG ]  sequence:4257083803 id---->4272595409 fin---->true
+2017-01-18 15:12:31  [ Thread-2:255665 ] - [ DEBUG ]  isFin:false packet---->1484723551:42351 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(65501) TCP 8888 > 57441 seq(4257083803) win(123) ack 4272595409  F
+2017-01-18 15:12:31  [ Thread-2:255665 ] - [ DEBUG ]  sequence:4272595409 id---->4272595409 fin---->false
+2017-01-18 15:12:31  [ Thread-2:255665 ] - [ DEBUG ]  isFin:false packet---->1484723551:42382 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1395) TCP 57441 > 8888 seq(4272595409) win(68) ack 4257083804 
+2017-01-18 15:16:47  [ AWT-EventQueue-0:0 ] - [ DEBUG ]  Capture Thread is started...
+2017-01-18 15:16:51  [ Thread-2:4713 ] - [ DEBUG ]  sequence:1948536560 id---->0 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4715 ] - [ DEBUG ]  isFin:false packet---->1484723811:717266 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1417) TCP 57494 > 8888 seq(1948536560) win(8192)  S
+2017-01-18 15:16:51  [ Thread-2:4721 ] - [ DEBUG ]  sequence:3595728891 id---->0 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4722 ] - [ DEBUG ]  isFin:false packet---->1484723811:717347 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1418) TCP 57495 > 8888 seq(3595728891) win(8192)  S
+2017-01-18 15:16:51  [ Thread-2:4722 ] - [ DEBUG ]  sequence:201739141 id---->0 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4722 ] - [ DEBUG ]  isFin:false packet---->1484723811:717992 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1419) TCP 57496 > 8888 seq(201739141) win(8192)  S
+2017-01-18 15:16:51  [ Thread-2:4722 ] - [ DEBUG ]  sequence:4082614394 id---->0 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4722 ] - [ DEBUG ]  isFin:false packet---->1484723811:718401 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1420) TCP 57497 > 8888 seq(4082614394) win(8192)  S
+2017-01-18 15:16:51  [ Thread-2:4723 ] - [ DEBUG ]  sequence:2257159066 id---->0 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4723 ] - [ DEBUG ]  isFin:false packet---->1484723811:718887 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1421) TCP 57498 > 8888 seq(2257159066) win(8192)  S
+2017-01-18 15:16:51  [ Thread-2:4723 ] - [ DEBUG ]  sequence:2291593926 id---->0 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4723 ] - [ DEBUG ]  isFin:false packet---->1484723811:732276 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57494 seq(2291593926) win(14600) ack 1948536561  S
+2017-01-18 15:16:51  [ Thread-2:4723 ] - [ DEBUG ]  sequence:1948536561 id---->0 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4723 ] - [ DEBUG ]  isFin:false packet---->1484723811:732421 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1422) TCP 57494 > 8888 seq(1948536561) win(69) ack 2291593927 
+2017-01-18 15:16:51  [ Thread-2:4724 ] - [ DEBUG ]  sequence:2380988930 id---->0 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4724 ] - [ DEBUG ]  isFin:false packet---->1484723811:732493 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57495 seq(2380988930) win(14600) ack 3595728892  S
+2017-01-18 15:16:51  [ Thread-2:4724 ] - [ DEBUG ]  sequence:3595728892 id---->0 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4724 ] - [ DEBUG ]  isFin:false packet---->1484723811:732527 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1423) TCP 57495 > 8888 seq(3595728892) win(69) ack 2380988931 
+2017-01-18 15:16:51  [ Thread-2:4724 ] - [ DEBUG ]  sequence:1948536561 id---->0 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4724 ] - [ DEBUG ]  isFin:false packet---->1484723811:733133 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1424) TCP 57494 > 8888 seq(1948536561) win(69) ack 2291593927  P
+2017-01-18 15:16:51  [ Thread-2:4725 ] - [ DEBUG ]  sequence:1337306784 id---->1948537033 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4725 ] - [ DEBUG ]  isFin:false packet---->1484723811:733876 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57496 seq(1337306784) win(14600) ack 201739142  S
+2017-01-18 15:16:51  [ Thread-2:4725 ] - [ DEBUG ]  sequence:201739142 id---->1948537033 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4725 ] - [ DEBUG ]  isFin:false packet---->1484723811:733999 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1425) TCP 57496 > 8888 seq(201739142) win(69) ack 1337306785 
+2017-01-18 15:16:51  [ Thread-2:4726 ] - [ DEBUG ]  sequence:435344054 id---->1948537033 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4726 ] - [ DEBUG ]  isFin:false packet---->1484723811:734148 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57497 seq(435344054) win(14600) ack 4082614395  S
+2017-01-18 15:16:51  [ Thread-2:4726 ] - [ DEBUG ]  sequence:4082614395 id---->1948537033 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4726 ] - [ DEBUG ]  isFin:false packet---->1484723811:734183 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1426) TCP 57497 > 8888 seq(4082614395) win(69) ack 435344055 
+2017-01-18 15:16:51  [ Thread-2:4726 ] - [ DEBUG ]  sequence:3246004710 id---->1948537033 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4726 ] - [ DEBUG ]  isFin:false packet---->1484723811:734215 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57498 seq(3246004710) win(14600) ack 2257159067  S
+2017-01-18 15:16:51  [ Thread-2:4727 ] - [ DEBUG ]  sequence:2257159067 id---->1948537033 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4727 ] - [ DEBUG ]  isFin:false packet---->1484723811:734244 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1427) TCP 57498 > 8888 seq(2257159067) win(69) ack 3246004711 
+2017-01-18 15:16:51  [ Thread-2:4778 ] - [ DEBUG ]  sequence:2291593927 id---->1948537033 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4778 ] - [ DEBUG ]  isFin:false packet---->1484723811:746188 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(37644) TCP 8888 > 57494 seq(2291593927) win(123) ack 1948537033 
+2017-01-18 15:16:51  [ Thread-2:4778 ] - [ DEBUG ]  sequence:2291593927 id---->1948537033 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4779 ] - [ DEBUG ]  isFin:false packet---->1484723811:751712 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(37645) TCP 8888 > 57494 seq(2291593927) win(123) ack 1948537033 
+2017-01-18 15:16:51  [ Thread-2:4782 ] - [ DEBUG ]  sequence:2291595287 id---->1948537033 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4782 ] - [ DEBUG ]  isFin:false packet---->1484723811:751830 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(37646) TCP 8888 > 57494 seq(2291595287) win(123) ack 1948537033  P
+2017-01-18 15:16:51  [ Thread-2:4783 ] - [ DEBUG ]  sequence:1948537033 id---->1948537033 fin---->false
+2017-01-18 15:16:51  [ Thread-2:4783 ] - [ DEBUG ]  isFin:false packet---->1484723811:751862 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1428) TCP 57494 > 8888 seq(1948537033) win(69) ack 2291596626 
+2017-01-18 15:16:54  [ Thread-2:7734 ] - [ DEBUG ]  sequence:1228711222 id---->1948537033 fin---->false
+2017-01-18 15:16:54  [ Thread-2:7734 ] - [ DEBUG ]  isFin:false packet---->1484723814:716200 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1429) TCP 57493 > 8888 seq(1228711222) win(8192)  S
+2017-01-18 15:16:54  [ Thread-2:7734 ] - [ DEBUG ]  sequence:807042553 id---->1948537033 fin---->false
+2017-01-18 15:16:54  [ Thread-2:7734 ] - [ DEBUG ]  isFin:false packet---->1484723814:733941 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57493 seq(807042553) win(14600) ack 1228711223  S
+2017-01-18 15:16:54  [ Thread-2:7734 ] - [ DEBUG ]  sequence:1228711223 id---->1948537033 fin---->false
+2017-01-18 15:16:54  [ Thread-2:7735 ] - [ DEBUG ]  isFin:false packet---->1484723814:734044 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1430) TCP 57493 > 8888 seq(1228711223) win(69) ack 807042554 
+2017-01-18 15:17:11  [ Thread-2:24743 ] - [ DEBUG ]  sequence:435344055 id---->1948537033 fin---->true
+2017-01-18 15:17:11  [ Thread-2:24743 ] - [ DEBUG ]  isFin:false packet---->1484723831:763497 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(45947) TCP 8888 > 57497 seq(435344055) win(115) ack 4082614395  F
+2017-01-18 15:17:11  [ Thread-2:24743 ] - [ DEBUG ]  sequence:4082614395 id---->1948537033 fin---->false
+2017-01-18 15:17:11  [ Thread-2:24743 ] - [ DEBUG ]  isFin:false packet---->1484723831:763581 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1435) TCP 57497 > 8888 seq(4082614395) win(69) ack 435344056 
+2017-01-18 15:17:11  [ Thread-2:24744 ] - [ DEBUG ]  sequence:2380988931 id---->1948537033 fin---->true
+2017-01-18 15:17:11  [ Thread-2:24744 ] - [ DEBUG ]  isFin:false packet---->1484723831:770141 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(25544) TCP 8888 > 57495 seq(2380988931) win(115) ack 3595728892  F
+2017-01-18 15:17:11  [ Thread-2:24744 ] - [ DEBUG ]  sequence:3595728892 id---->1948537033 fin---->false
+2017-01-18 15:17:11  [ Thread-2:24744 ] - [ DEBUG ]  isFin:false packet---->1484723831:770183 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1436) TCP 57495 > 8888 seq(3595728892) win(69) ack 2380988932 
+2017-01-18 15:17:11  [ Thread-2:24794 ] - [ DEBUG ]  sequence:1337306785 id---->1948537033 fin---->true
+2017-01-18 15:17:11  [ Thread-2:24794 ] - [ DEBUG ]  isFin:false packet---->1484723831:782535 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(53101) TCP 8888 > 57496 seq(1337306785) win(115) ack 201739142  F
+2017-01-18 15:17:11  [ Thread-2:24794 ] - [ DEBUG ]  sequence:201739142 id---->1948537033 fin---->false
+2017-01-18 15:17:11  [ Thread-2:24794 ] - [ DEBUG ]  isFin:false packet---->1484723831:782585 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1437) TCP 57496 > 8888 seq(201739142) win(69) ack 1337306786 
+2017-01-18 15:17:11  [ Thread-2:24795 ] - [ DEBUG ]  sequence:3246004711 id---->1948537033 fin---->true
+2017-01-18 15:17:11  [ Thread-2:24795 ] - [ DEBUG ]  isFin:false packet---->1484723831:782613 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(30763) TCP 8888 > 57498 seq(3246004711) win(115) ack 2257159067  F
+2017-01-18 15:17:11  [ Thread-2:24795 ] - [ DEBUG ]  sequence:2257159067 id---->1948537033 fin---->false
+2017-01-18 15:17:11  [ Thread-2:24795 ] - [ DEBUG ]  isFin:false packet---->1484723831:782641 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1438) TCP 57498 > 8888 seq(2257159067) win(69) ack 3246004712 
+2017-01-18 15:17:11  [ Thread-2:24795 ] - [ DEBUG ]  sequence:2291596626 id---->1948537033 fin---->true
+2017-01-18 15:17:11  [ Thread-2:24795 ] - [ DEBUG ]  isFin:false packet---->1484723831:782658 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(37647) TCP 8888 > 57494 seq(2291596626) win(123) ack 1948537033  F
+2017-01-18 15:17:11  [ Thread-2:24795 ] - [ DEBUG ]  sequence:1948537033 id---->1948537033 fin---->false
+2017-01-18 15:17:11  [ Thread-2:24796 ] - [ DEBUG ]  isFin:false packet---->1484723831:782678 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1439) TCP 57494 > 8888 seq(1948537033) win(69) ack 2291596627 
+2017-01-18 15:17:14  [ Thread-2:27747 ] - [ DEBUG ]  sequence:807042554 id---->1948537033 fin---->true
+2017-01-18 15:17:14  [ Thread-2:27747 ] - [ DEBUG ]  isFin:false packet---->1484723834:770849 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(4222) TCP 8888 > 57493 seq(807042554) win(115) ack 1228711223  F
+2017-01-18 15:17:14  [ Thread-2:27747 ] - [ DEBUG ]  sequence:1228711223 id---->1948537033 fin---->false
+2017-01-18 15:17:14  [ Thread-2:27747 ] - [ DEBUG ]  isFin:false packet---->1484723834:770900 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1440) TCP 57493 > 8888 seq(1228711223) win(69) ack 807042555 
+2017-01-18 15:17:18  [ Thread-2:31399 ] - [ DEBUG ]  sequence:3595728892 id---->1948537033 fin---->true
+2017-01-18 15:17:18  [ Thread-2:31399 ] - [ DEBUG ]  isFin:false packet---->1484723838:422279 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1441) TCP 57495 > 8888 seq(3595728892) win(69) ack 2380988932  F
+2017-01-18 15:17:18  [ Thread-2:31399 ] - [ DEBUG ]  sequence:201739142 id---->1948537033 fin---->true
+2017-01-18 15:17:18  [ Thread-2:31400 ] - [ DEBUG ]  isFin:false packet---->1484723838:422442 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1442) TCP 57496 > 8888 seq(201739142) win(69) ack 1337306786  F
+2017-01-18 15:17:18  [ Thread-2:31400 ] - [ DEBUG ]  sequence:4082614395 id---->1948537033 fin---->true
+2017-01-18 15:17:18  [ Thread-2:31400 ] - [ DEBUG ]  isFin:false packet---->1484723838:422511 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1443) TCP 57497 > 8888 seq(4082614395) win(69) ack 435344056  F
+2017-01-18 15:17:18  [ Thread-2:31400 ] - [ DEBUG ]  sequence:2257159067 id---->1948537033 fin---->true
+2017-01-18 15:17:18  [ Thread-2:31400 ] - [ DEBUG ]  isFin:false packet---->1484723838:422610 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1444) TCP 57498 > 8888 seq(2257159067) win(69) ack 3246004712  F
+2017-01-18 15:17:18  [ Thread-2:31400 ] - [ DEBUG ]  sequence:1948537033 id---->1948537033 fin---->true
+2017-01-18 15:17:18  [ Thread-2:31401 ] - [ DEBUG ]  isFin:true packet---->1484723838:422691 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1445) TCP 57494 > 8888 seq(1948537033) win(69) ack 2291596627  F
+2017-01-18 15:17:18  [ Thread-2:31401 ] - [ DEBUG ]  begin to show and save data...
+2017-01-18 15:17:18  [ Thread-3:31409 ] - [ DEBUG ]  wait...
+2017-01-18 15:17:18  [ Thread-2:31409 ] - [ DEBUG ]  sequence:1228711223 id---->-1 fin---->true
+2017-01-18 15:17:18  [ Thread-2:31410 ] - [ DEBUG ]  isFin:false packet---->1484723838:422759 /172.23.13.3->/172.23.31.151 protocol(6) priority(0)  hop(128)  offset(0) ident(1446) TCP 57493 > 8888 seq(1228711223) win(69) ack 807042555  F
+2017-01-18 15:17:18  [ Thread-3:31426 ] - [ DEBUG ]  dao.HttpDataBean@1760b6ec
+2017-01-18 15:17:18  [ Thread-2:31461 ] - [ DEBUG ]  sequence:2380988932 id---->-1 fin---->false
+2017-01-18 15:17:18  [ Thread-2:31461 ] - [ DEBUG ]  isFin:false packet---->1484723838:443124 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57495 seq(2380988932) win(115) ack 3595728893 
+2017-01-18 15:17:18  [ Thread-2:31461 ] - [ DEBUG ]  sequence:1337306786 id---->-1 fin---->false
+2017-01-18 15:17:18  [ Thread-2:31461 ] - [ DEBUG ]  isFin:false packet---->1484723838:448533 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57496 seq(1337306786) win(115) ack 201739143 
+2017-01-18 15:17:18  [ Thread-2:31461 ] - [ DEBUG ]  sequence:435344056 id---->-1 fin---->false
+2017-01-18 15:17:18  [ Thread-2:31461 ] - [ DEBUG ]  isFin:false packet---->1484723838:460476 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57497 seq(435344056) win(115) ack 4082614396 
+2017-01-18 15:17:18  [ Thread-2:31462 ] - [ DEBUG ]  sequence:3246004712 id---->-1 fin---->false
+2017-01-18 15:17:18  [ Thread-2:31462 ] - [ DEBUG ]  isFin:false packet---->1484723838:460522 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57498 seq(3246004712) win(115) ack 2257159068 
+2017-01-18 15:17:18  [ Thread-2:31462 ] - [ DEBUG ]  sequence:2291596627 id---->-1 fin---->false
+2017-01-18 15:17:18  [ Thread-2:31462 ] - [ DEBUG ]  isFin:false packet---->1484723838:460542 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57494 seq(2291596627) win(123) ack 1948537034 
+2017-01-18 15:17:18  [ Thread-2:31462 ] - [ DEBUG ]  sequence:807042555 id---->-1 fin---->false
+2017-01-18 15:17:18  [ Thread-2:31462 ] - [ DEBUG ]  isFin:false packet---->1484723838:460558 /172.23.31.151->/172.23.13.3 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 8888 > 57493 seq(807042555) win(115) ack 1228711224 
+2017-01-18 15:17:18  [ Thread-3:31570 ] - [ DEBUG ]  sourceFile:data\login.xls; targetFile:D:\workspace\JavaNetCap\data\login-temp.xls
+2017-01-18 15:17:19  [ Thread-3:32343 ] - [ DEBUG ]  is delete sourceFile:true; is rename ok:true

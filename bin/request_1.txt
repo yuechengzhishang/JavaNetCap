@@ -1,0 +1,105 @@
+1 a020259212266cf49cfb2ec8753cb874d9ff18db 1481096304900565197
+GET /jenkins/job/myFirstJob/descriptorByName/hudson.model.FreeStyleProject/checkCustomWorkspace?value=&customWorkspace= HTTP/1.1
+Host: 172.23.27.210:8888
+Connection: keep-alive
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+X-Prototype-Version: 1.7
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+Referer: http://172.23.27.210:8888/jenkins/job/myFirstJob/configure
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: JSESSIONID=67D93664B3D50148514CF6123238C615; screenResolution=1360x768
+
+
+🐵🙈🙉
+1 6c971a4c8645b219af24cc41773c5c775632ac07 1481096305104528035
+GET /jenkins/checkDisplayName?displayName=&jobName=myFirstJob HTTP/1.1
+Host: 172.23.27.210:8888
+Connection: keep-alive
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+X-Prototype-Version: 1.7
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+Referer: http://172.23.27.210:8888/jenkins/job/myFirstJob/configure
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: JSESSIONID=67D93664B3D50148514CF6123238C615; screenResolution=1360x768
+
+
+🐵🙈🙉
+1 f68b44f72f6dfd6d4e4b9c051fb4af81f8e694aa 1481096305198516341
+GET /jenkins/job/myFirstJob/descriptorByName/jenkins.triggers.ReverseBuildTrigger/checkUpstreamProjects?value= HTTP/1.1
+Host: 172.23.27.210:8888
+Connection: keep-alive
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+X-Prototype-Version: 1.7
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+Referer: http://172.23.27.210:8888/jenkins/job/myFirstJob/configure
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: JSESSIONID=67D93664B3D50148514CF6123238C615; screenResolution=1360x768
+
+
+🐵🙈🙉
+1 fe71b02a7fb400d1917f122eddcfe1245e9573e4 1481096305230449680
+GET /jenkins/job/myFirstJob/descriptorByName/hudson.triggers.TimerTrigger/checkSpec?value= HTTP/1.1
+Host: 172.23.27.210:8888
+Connection: keep-alive
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+X-Prototype-Version: 1.7
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+Referer: http://172.23.27.210:8888/jenkins/job/myFirstJob/configure
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: JSESSIONID=67D93664B3D50148514CF6123238C615; screenResolution=1360x768
+
+
+🐵🙈🙉
+1 4a24d802b759d8be600e37454d0886ae3e0881b5 1481096305282499238
+GET /jenkins/trigger/TimerTrigger/check?value= HTTP/1.1
+Host: 172.23.27.210:8888
+Connection: keep-alive
+Accept: text/javascript, text/html, application/xml, text/xml, */*
+X-Prototype-Version: 1.7
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+Referer: http://172.23.27.210:8888/jenkins/job/myFirstJob/configure
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: JSESSIONID=67D93664B3D50148514CF6123238C615; screenResolution=1360x768
+
+
+🐵🙈🙉
+1 fe2e975256f891f606b4c780735d716ac48d6145 1481096316410224425
+POST /jenkins/job/myFirstJob/configSubmit HTTP/1.1
+Host: 172.23.27.210:8888
+Connection: keep-alive
+Content-Length: 1644
+Cache-Control: max-age=0
+Origin: http://172.23.27.210:8888
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://172.23.27.210:8888/jenkins/job/myFirstJob/configure
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: JSESSIONID=67D93664B3D50148514CF6123238C615; screenResolution=1360x768
+
+name=myFirstJob&description=&stapler-class-bag=true&_.daysToKeepStr=&_.numToKeepStr=&_.artifactDaysToKeepStr=&_.artifactNumToKeepStr=&stapler-class=hudson.tasks.LogRotator&%24class=hudson.tasks.LogRotator&quiet_period=5&scmCheckoutRetryCount=0&_.customWorkspace=&_.displayNameOrNull=&scm=0&authToken=&_.upstreamProjects=&ReverseBuildTrigger.threshold=SUCCESS&_.spec=&scmpoll_spec=&core%3Aapply=&Jenkins-Crumb=650bfd6e97ad4c03043824cd06d41833&json=%7B%22name%22%3A+%22myFirstJob%22%2C+%22description%22%3A+%22%22%2C+%22properties%22%3A+%7B%22stapler-class-bag%22%3A+%22true%22%2C+%22jenkins-model-BuildDiscarderProperty%22%3A+%7B%22specified%22%3A+false%2C+%22%22%3A+%220%22%2C+%22strategy%22%3A+%7B%22daysToKeepStr%22%3A+%22%22%2C+%22numToKeepStr%22%3A+%22%22%2C+%22artifactDaysToKeepStr%22%3A+%22%22%2C+%22artifactNumToKeepStr%22%3A+%22%22%2C+%22stapler-class%22%3A+%22hudson.tasks.LogRotator%22%2C+%22%24class%22%3A+%22hudson.tasks.LogRotator%22%7D%7D%2C+%22hudson-model-ParametersDefinitionProperty%22%3A+%7B%22specified%22%3A+false%7D%7D%2C+%22disable%22%3A+false%2C+%22concurrentBuild%22%3A+false%2C+%22hasCustomQuietPeriod%22%3A+false%2C+%22quiet_period%22%3A+%225%22%2C+%22hasCustomScmCheckoutRetryCount%22%3A+false%2C+%22scmCheckoutRetryCount%22%3A+%220%22%2C+%22blockBuildWhenUpstreamBuilding%22%3A+false%2C+%22blockBuildWhenDownstreamBuilding%22%3A+false%2C+%22hasCustomWorkspace%22%3A+false%2C+%22customWorkspace%22%3A+%22%22%2C+%22displayNameOrNull%22%3A+%22%22%2C+%22scm%22%3A+%7B%22value%22%3A+%220%22%7D%2C+%22core%3Aapply%22%3A+%22%22%2C+%22Jenkins-Crumb%22%3A+%22650bfd6e97ad4c03043824cd06d41833%22%7D&Submit=%E4%BF%9D%E5%AD%98
+🐵🙈🙉
+1 6d4268eb07aa9e25c75234e50c130bd9b04d4d52 1481096316444379805
+GET /jenkins/job/myFirstJob/ HTTP/1.1
+Host: 172.23.27.210:8888
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://172.23.27.210:8888/jenkins/job/myFirstJob/configure
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: JSESSIONID=67D93664B3D50148514CF6123238C615; screenResolution=1360x768
