@@ -8,8 +8,7 @@ public enum HttpMethod {
 	OPTIONS("OPTIONS", "OPTIONS请求方法的主要用途有两个：1、获取服务器支持的HTTP请求方法；也是黑客经常使用的方法。2、用来检查服务器的性能。例如：AJAX进行跨域请求时的预检，需要向另外一个域名的资源发送一个HTTP OPTIONS请求头，用以判断实际发送的请求是否安全。"), 
 	HEAD("HEAD", "HEAD方法跟GET方法相同，只不过服务器响应时不会返回消息体。"), 
 	TRACE("TRACE", "TRACE_Method是HTTP（超文本传输）协议定义的一种协议调试方法，该方法会使服务器原样返回任意客户端请求的任何内容。"), 
-	CONNECT("CONNECT", "CONNECT这个方法的作用就是把服务器作为跳板，让服务器代替用户去访问其它网页，之后把数据原原本本的返回给用户。"), 
-	TOKEN("token", "extension-method");
+	CONNECT("CONNECT", "CONNECT这个方法的作用就是把服务器作为跳板，让服务器代替用户去访问其它网页，之后把数据原原本本的返回给用户。");
 	
 	private String method;
 	private String desc;

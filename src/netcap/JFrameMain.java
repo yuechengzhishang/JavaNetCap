@@ -61,6 +61,7 @@ public class JFrameMain extends javax.swing.JFrame implements ActionListener {
 		setJMenuBar(jMenuBar);
 		JMenu mainMenu = ViewModules.addMenu(jMenuBar, "抓包", 35, 21);
 		for(MenuEnum menu : MenuEnum.values()){
+			if("conf".equals(menu.getCommand())) continue;
 			ViewModules.addSimpleMenuItem(mainMenu, menu, this);
 		}
 		

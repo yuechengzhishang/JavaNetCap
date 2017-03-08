@@ -17,7 +17,6 @@ public class AsyncHandler implements Runnable {
     	this.frame = frame;
     }
 
-	@Override
 	public void run() {
 		while(true){
             synchronized (HttpDataQueues.queue) {

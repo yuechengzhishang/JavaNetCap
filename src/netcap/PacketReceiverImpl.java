@@ -25,7 +25,6 @@ public class PacketReceiverImpl implements PacketReceiver {
 		this.domain = domain;
 	}
 	
-	@Override
 	public void receivePacket(Packet paramPacket) {
 		TCPPacket packet = (TCPPacket) paramPacket;
 		String dstIP = packet.dst_ip.toString().substring(1);

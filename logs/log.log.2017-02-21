@@ -1,0 +1,1716 @@
+2017-02-21 11:56:16  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 11:56:16  [ main:22 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 11:56:16  [ main:28 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 11:56:16  [ main:63 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 11:56:16  [ main:68 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 11:56:16  [ main:79 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 11:56:16  [ main:96 ] - [ DEBUG ]  Connection established 172.23.13.46:54687<->172.23.23.97:80
+2017-02-21 11:56:16  [ main:96 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 11:56:16  [ main:97 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 11:56:16  [ main:98 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 11:56:16  [ main:102 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 11:56:16  [ main:103 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 11:56:16  [ main:103 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 11:56:16  [ main:103 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 11:56:16  [ main:103 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 11:56:16  [ main:103 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 0
+2017-02-21 11:56:16  [ main:103 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 11:56:16  [ main:104 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 11:56:16  [ main:104 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 11:56:16  [ main:104 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 11:56:16  [ main:104 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 11:56:16  [ main:105 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 11:56:16  [ main:105 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 0[\r][\n]"
+2017-02-21 11:56:16  [ main:105 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 11:56:16  [ main:105 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 11:56:16  [ main:126 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 11:56:16  [ main:127 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 11:56:16  [ main:127 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 03:56:16 GMT[\r][\n]"
+2017-02-21 11:56:16  [ main:127 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 11:56:16  [ main:127 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 73[\r][\n]"
+2017-02-21 11:56:16  [ main:127 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 11:56:16  [ main:127 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=2EFE98CCED99F7BB616BF3B129127CF9; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 11:56:16  [ main:127 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 11:56:16  [ main:127 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 11:56:16  [ main:128 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"0","msg":"[[0xe6][0xa0][0xa1][0xe9][0xaa][0x8c][0xe9][0x94][0x99][0xe8][0xaf][0xaf][0xe4][0xbf][0xa1][0xe6][0x81][0xaf]][0xef][0xbc][0x9a]type [0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe4][0xb8][0xba][0xe7][0xa9][0xba][0xe6][0x88][0x96][0xe4][0xb8][0x8d][0xe5][0x90][0x88][0xe6][0xb3][0x95]"}"
+2017-02-21 11:56:16  [ main:147 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 11:56:16  [ main:148 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 11:56:16  [ main:148 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 03:56:16 GMT
+2017-02-21 11:56:16  [ main:148 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 11:56:16  [ main:148 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 73
+2017-02-21 11:56:16  [ main:148 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 11:56:16  [ main:148 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=2EFE98CCED99F7BB616BF3B129127CF9; Path=/ems_cmcc/; HttpOnly
+2017-02-21 11:56:16  [ main:148 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 11:56:16  [ main:160 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 11:56:16  [ main:172 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="2EFE98CCED99F7BB616BF3B129127CF9", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 11:56:16  [ main:175 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 11:56:16  [ main:176 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 11:57:09  [ main:1 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 11:57:09  [ main:24 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 11:57:09  [ main:30 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 11:57:09  [ main:74 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 11:57:09  [ main:78 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 11:57:09  [ main:93 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 11:57:09  [ main:111 ] - [ DEBUG ]  Connection established 172.23.13.46:54705<->172.23.23.97:80
+2017-02-21 11:57:09  [ main:112 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 11:57:09  [ main:113 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 11:57:09  [ main:114 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 11:57:09  [ main:118 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 11:57:09  [ main:118 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 11:57:09  [ main:119 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 11:57:09  [ main:119 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 11:57:09  [ main:119 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 11:57:09  [ main:119 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 0
+2017-02-21 11:57:09  [ main:119 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 11:57:09  [ main:119 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 11:57:09  [ main:119 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 11:57:09  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 11:57:09  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 11:57:09  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 11:57:09  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 0[\r][\n]"
+2017-02-21 11:57:09  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 11:57:09  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 11:57:10  [ main:1020 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 11:57:10  [ main:1020 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 11:57:10  [ main:1020 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 03:57:10 GMT[\r][\n]"
+2017-02-21 11:57:10  [ main:1020 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 11:57:10  [ main:1020 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 73[\r][\n]"
+2017-02-21 11:57:10  [ main:1020 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 11:57:10  [ main:1021 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=264B69070A17C5573E6D48389A0C2CD2; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 11:57:10  [ main:1021 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 11:57:10  [ main:1021 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 11:57:10  [ main:1021 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"0","msg":"[[0xe6][0xa0][0xa1][0xe9][0xaa][0x8c][0xe9][0x94][0x99][0xe8][0xaf][0xaf][0xe4][0xbf][0xa1][0xe6][0x81][0xaf]][0xef][0xbc][0x9a]type [0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe4][0xb8][0xba][0xe7][0xa9][0xba][0xe6][0x88][0x96][0xe4][0xb8][0x8d][0xe5][0x90][0x88][0xe6][0xb3][0x95]"}"
+2017-02-21 11:57:10  [ main:1027 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 11:57:10  [ main:1027 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 11:57:10  [ main:1027 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 03:57:10 GMT
+2017-02-21 11:57:10  [ main:1027 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 11:57:10  [ main:1027 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 73
+2017-02-21 11:57:10  [ main:1028 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 11:57:10  [ main:1028 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=264B69070A17C5573E6D48389A0C2CD2; Path=/ems_cmcc/; HttpOnly
+2017-02-21 11:57:10  [ main:1028 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 11:57:10  [ main:1039 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 11:57:10  [ main:1051 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="264B69070A17C5573E6D48389A0C2CD2", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 11:57:10  [ main:1054 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 11:57:10  [ main:1054 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:41:57  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 12:41:58  [ main:102 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 12:41:58  [ main:108 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 12:41:58  [ main:158 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:41:58  [ main:162 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 12:41:58  [ main:174 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 12:41:58  [ main:632 ] - [ DEBUG ]  Connection established 172.23.13.46:55706<->172.23.23.97:80
+2017-02-21 12:41:58  [ main:633 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 12:41:58  [ main:633 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 12:41:58  [ main:634 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 12:41:58  [ main:640 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 12:41:58  [ main:640 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 12:41:58  [ main:640 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 12:41:58  [ main:640 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 12:41:58  [ main:640 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 12:41:58  [ main:640 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 0
+2017-02-21 12:41:58  [ main:641 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 12:41:58  [ main:641 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 12:41:58  [ main:642 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 12:41:58  [ main:642 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 12:41:58  [ main:642 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 12:41:58  [ main:642 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 12:41:58  [ main:642 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 0[\r][\n]"
+2017-02-21 12:41:58  [ main:642 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 12:41:58  [ main:642 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 12:41:58  [ main:665 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 12:41:58  [ main:665 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 12:41:58  [ main:665 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 04:41:58 GMT[\r][\n]"
+2017-02-21 12:41:58  [ main:665 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 12:41:58  [ main:665 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 73[\r][\n]"
+2017-02-21 12:41:58  [ main:666 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 12:41:58  [ main:666 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=37A602FDE56E9253EFCA9454562A05C1; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 12:41:58  [ main:666 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 12:41:58  [ main:666 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 12:41:58  [ main:667 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"0","msg":"[[0xe6][0xa0][0xa1][0xe9][0xaa][0x8c][0xe9][0x94][0x99][0xe8][0xaf][0xaf][0xe4][0xbf][0xa1][0xe6][0x81][0xaf]][0xef][0xbc][0x9a]type [0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe4][0xb8][0xba][0xe7][0xa9][0xba][0xe6][0x88][0x96][0xe4][0xb8][0x8d][0xe5][0x90][0x88][0xe6][0xb3][0x95]"}"
+2017-02-21 12:41:58  [ main:673 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 12:41:58  [ main:674 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 12:41:58  [ main:674 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 04:41:58 GMT
+2017-02-21 12:41:58  [ main:674 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 12:41:58  [ main:674 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 73
+2017-02-21 12:41:58  [ main:674 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 12:41:58  [ main:674 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=37A602FDE56E9253EFCA9454562A05C1; Path=/ems_cmcc/; HttpOnly
+2017-02-21 12:41:58  [ main:674 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 12:41:58  [ main:701 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 12:41:58  [ main:718 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="37A602FDE56E9253EFCA9454562A05C1", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 12:41:58  [ main:721 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 12:41:58  [ main:722 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:42:55  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 12:42:55  [ main:24 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 12:42:55  [ main:29 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 12:42:55  [ main:65 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:42:55  [ main:68 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 12:42:55  [ main:87 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 12:42:55  [ main:133 ] - [ DEBUG ]  Connection established 172.23.13.46:55725<->172.23.23.97:80
+2017-02-21 12:42:55  [ main:134 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 12:42:55  [ main:134 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 12:42:55  [ main:135 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 12:42:55  [ main:140 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 12:42:55  [ main:140 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 12:42:55  [ main:141 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 12:42:55  [ main:141 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 12:42:55  [ main:141 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 12:42:55  [ main:141 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 0
+2017-02-21 12:42:55  [ main:141 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 12:42:55  [ main:141 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 12:42:55  [ main:142 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 12:42:55  [ main:142 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 12:42:55  [ main:142 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 12:42:55  [ main:142 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 12:42:55  [ main:142 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 0[\r][\n]"
+2017-02-21 12:42:55  [ main:142 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 12:42:55  [ main:142 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 12:42:55  [ main:167 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 12:42:55  [ main:167 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 12:42:55  [ main:167 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 04:42:55 GMT[\r][\n]"
+2017-02-21 12:42:55  [ main:167 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 12:42:55  [ main:167 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 73[\r][\n]"
+2017-02-21 12:42:55  [ main:168 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 12:42:55  [ main:168 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=47D42A8D52E96A0E2DFA480ADBAEA04D; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 12:42:55  [ main:168 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 12:42:55  [ main:168 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 12:42:55  [ main:168 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"0","msg":"[[0xe6][0xa0][0xa1][0xe9][0xaa][0x8c][0xe9][0x94][0x99][0xe8][0xaf][0xaf][0xe4][0xbf][0xa1][0xe6][0x81][0xaf]][0xef][0xbc][0x9a]type [0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe4][0xb8][0xba][0xe7][0xa9][0xba][0xe6][0x88][0x96][0xe4][0xb8][0x8d][0xe5][0x90][0x88][0xe6][0xb3][0x95]"}"
+2017-02-21 12:42:55  [ main:174 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 12:42:55  [ main:175 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 12:42:55  [ main:175 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 04:42:55 GMT
+2017-02-21 12:42:55  [ main:175 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 12:42:55  [ main:175 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 73
+2017-02-21 12:42:55  [ main:175 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 12:42:55  [ main:175 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=47D42A8D52E96A0E2DFA480ADBAEA04D; Path=/ems_cmcc/; HttpOnly
+2017-02-21 12:42:55  [ main:175 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 12:42:55  [ main:189 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 12:42:55  [ main:201 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="47D42A8D52E96A0E2DFA480ADBAEA04D", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 12:42:55  [ main:207 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 12:42:55  [ main:208 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:42:55  [ main:275 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 12:42:55  [ main:379 ] - [ DEBUG ]  Cookie [version: 0][name: HttpOnly][value: ][domain: 172.23.23.97][path: /ems_cmcc/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 12:42:55  [ main:379 ] - [ DEBUG ]  Cookie [version: 0][name: Path][value: /ems_cmcc/][domain: 172.23.23.97][path: /ems_cmcc/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 12:42:55  [ main:380 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 12:42:55  [ main:380 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 12:42:55  [ main:381 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:42:55  [ main:381 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 12:42:55  [ main:381 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 12:42:55  [ main:406 ] - [ DEBUG ]  Connection established 172.23.13.46:55726<->172.23.23.97:80
+2017-02-21 12:42:55  [ main:406 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/loginPson HTTP/1.1
+2017-02-21 12:42:55  [ main:407 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 12:42:55  [ main:409 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 12:42:55  [ main:410 ] - [ DEBUG ]  http-outgoing-1 >> POST /ems_cmcc/new/loginPson HTTP/1.1
+2017-02-21 12:42:55  [ main:410 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 12:42:55  [ main:410 ] - [ DEBUG ]  http-outgoing-1 >> Content-Length: 0
+2017-02-21 12:42:55  [ main:410 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 12:42:55  [ main:410 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 12:42:55  [ main:410 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 12:42:55  [ main:410 ] - [ DEBUG ]  http-outgoing-1 >> Cookie: HttpOnly=; Path=/ems_cmcc/
+2017-02-21 12:42:55  [ main:411 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 12:42:55  [ main:411 ] - [ DEBUG ]  http-outgoing-1 >> "POST /ems_cmcc/new/loginPson HTTP/1.1[\r][\n]"
+2017-02-21 12:42:55  [ main:411 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 12:42:55  [ main:411 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Length: 0[\r][\n]"
+2017-02-21 12:42:55  [ main:411 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 12:42:55  [ main:411 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 12:42:55  [ main:411 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 12:42:55  [ main:411 ] - [ DEBUG ]  http-outgoing-1 >> "Cookie: HttpOnly=; Path=/ems_cmcc/[\r][\n]"
+2017-02-21 12:42:55  [ main:411 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 12:42:55  [ main:411 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 12:42:55  [ main:433 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 12:42:55  [ main:434 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 12:42:55  [ main:434 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 04:42:55 GMT[\r][\n]"
+2017-02-21 12:42:55  [ main:434 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 12:42:55  [ main:434 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 83[\r][\n]"
+2017-02-21 12:42:55  [ main:434 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 12:42:55  [ main:434 ] - [ DEBUG ]  http-outgoing-1 << "Set-Cookie: JSESSIONID=7DBC4693EB4A20EBC955C9F77D31B435; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 12:42:55  [ main:434 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 12:42:55  [ main:434 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 12:42:55  [ main:435 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"0","msg":"[[0xe6][0xa0][0xa1][0xe9][0xaa][0x8c][0xe9][0x94][0x99][0xe8][0xaf][0xaf][0xe4][0xbf][0xa1][0xe6][0x81][0xaf]][0xef][0xbc][0x9a]enterpriseCode [0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe4][0xb8][0xba][0xe7][0xa9][0xba][0xe6][0x88][0x96][0xe4][0xb8][0x8d][0xe5][0x90][0x88][0xe6][0xb3][0x95]"}"
+2017-02-21 12:42:55  [ main:435 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 12:42:55  [ main:435 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 12:42:55  [ main:435 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 04:42:55 GMT
+2017-02-21 12:42:55  [ main:435 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 12:42:55  [ main:435 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 83
+2017-02-21 12:42:55  [ main:435 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 12:42:55  [ main:435 ] - [ DEBUG ]  http-outgoing-1 << Set-Cookie: JSESSIONID=7DBC4693EB4A20EBC955C9F77D31B435; Path=/ems_cmcc/; HttpOnly
+2017-02-21 12:42:55  [ main:435 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 12:42:55  [ main:436 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 12:42:55  [ main:436 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="7DBC4693EB4A20EBC955C9F77D31B435", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 12:42:55  [ main:437 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 12:42:55  [ main:437 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:42:55  [ main:438 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 12:42:55  [ main:438 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-02-21 12:42:55  [ main:439 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 12:42:55  [ main:439 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 12:42:55  [ main:439 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2017-02-21 12:42:55  [ main:440 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 12:48:58  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 12:48:58  [ main:24 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 12:48:58  [ main:29 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 12:48:58  [ main:83 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:48:58  [ main:86 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 12:48:58  [ main:104 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 12:48:58  [ main:121 ] - [ DEBUG ]  Connection established 172.23.13.46:55879<->172.23.23.97:80
+2017-02-21 12:48:58  [ main:121 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 12:48:58  [ main:122 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 12:48:58  [ main:123 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 12:48:58  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 12:48:58  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 12:48:58  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 12:48:58  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 12:48:58  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 12:48:58  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 0
+2017-02-21 12:48:58  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 12:48:58  [ main:128 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 12:48:58  [ main:128 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 12:48:58  [ main:128 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 12:48:58  [ main:128 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 12:48:58  [ main:128 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 12:48:58  [ main:128 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 0[\r][\n]"
+2017-02-21 12:48:58  [ main:128 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 12:48:58  [ main:129 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 12:48:58  [ main:148 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 12:48:58  [ main:148 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 12:48:58  [ main:148 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 04:48:58 GMT[\r][\n]"
+2017-02-21 12:48:58  [ main:148 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 12:48:58  [ main:149 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 73[\r][\n]"
+2017-02-21 12:48:58  [ main:149 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 12:48:58  [ main:149 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=247367DF394AEF72B5BA2E114348FB17; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 12:48:58  [ main:149 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 12:48:58  [ main:149 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 12:48:58  [ main:149 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"0","msg":"[[0xe6][0xa0][0xa1][0xe9][0xaa][0x8c][0xe9][0x94][0x99][0xe8][0xaf][0xaf][0xe4][0xbf][0xa1][0xe6][0x81][0xaf]][0xef][0xbc][0x9a]type [0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe4][0xb8][0xba][0xe7][0xa9][0xba][0xe6][0x88][0x96][0xe4][0xb8][0x8d][0xe5][0x90][0x88][0xe6][0xb3][0x95]"}"
+2017-02-21 12:48:58  [ main:155 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 12:48:58  [ main:155 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 12:48:58  [ main:155 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 04:48:58 GMT
+2017-02-21 12:48:58  [ main:155 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 12:48:58  [ main:155 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 73
+2017-02-21 12:48:58  [ main:155 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 12:48:58  [ main:155 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=247367DF394AEF72B5BA2E114348FB17; Path=/ems_cmcc/; HttpOnly
+2017-02-21 12:48:58  [ main:156 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 12:48:58  [ main:166 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 12:48:58  [ main:180 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="247367DF394AEF72B5BA2E114348FB17", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 12:48:58  [ main:183 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 12:48:58  [ main:184 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:48:58  [ main:201 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 12:48:58  [ main:220 ] - [ DEBUG ]  Cookie [version: 0][name: HttpOnly][value: ][domain: 172.23.23.97][path: /ems_cmcc/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 12:48:58  [ main:220 ] - [ DEBUG ]  Cookie [version: 0][name: Path][value: /ems_cmcc/][domain: 172.23.23.97][path: /ems_cmcc/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 12:48:58  [ main:221 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 12:48:58  [ main:221 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 12:48:58  [ main:222 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:48:58  [ main:222 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 12:48:58  [ main:222 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 12:48:58  [ main:232 ] - [ DEBUG ]  Connection established 172.23.13.46:55880<->172.23.23.97:80
+2017-02-21 12:48:58  [ main:232 ] - [ DEBUG ]  Executing request GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 12:48:58  [ main:233 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 12:48:58  [ main:233 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 12:48:58  [ main:233 ] - [ DEBUG ]  http-outgoing-1 >> GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 12:48:58  [ main:233 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 12:48:58  [ main:233 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 12:48:58  [ main:233 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 12:48:58  [ main:233 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 12:48:58  [ main:233 ] - [ DEBUG ]  http-outgoing-1 >> Cookie: HttpOnly=; Path=/ems_cmcc/
+2017-02-21 12:48:58  [ main:233 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 12:48:58  [ main:234 ] - [ DEBUG ]  http-outgoing-1 >> "GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1[\r][\n]"
+2017-02-21 12:48:58  [ main:234 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 12:48:58  [ main:234 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 12:48:58  [ main:234 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 12:48:58  [ main:234 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 12:48:58  [ main:234 ] - [ DEBUG ]  http-outgoing-1 >> "Cookie: HttpOnly=; Path=/ems_cmcc/[\r][\n]"
+2017-02-21 12:48:58  [ main:234 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 12:48:58  [ main:234 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 12:48:58  [ main:253 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 12:48:58  [ main:253 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 12:48:58  [ main:254 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 04:48:58 GMT[\r][\n]"
+2017-02-21 12:48:58  [ main:256 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 12:48:58  [ main:256 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 42[\r][\n]"
+2017-02-21 12:48:58  [ main:256 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 12:48:58  [ main:256 ] - [ DEBUG ]  http-outgoing-1 << "Set-Cookie: JSESSIONID=E44D7606B6F8CB39303A601B7B137027; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 12:48:58  [ main:256 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 12:48:58  [ main:257 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 12:48:58  [ main:257 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"0","msg":"[0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0xba][0x93][0xe6][0x93][0x8d][0xe4][0xbd][0x9c][0xe5][0xbc][0x82][0xe5][0xb8][0xb8]"}"
+2017-02-21 12:48:58  [ main:257 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 12:48:58  [ main:257 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 12:48:58  [ main:257 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 04:48:58 GMT
+2017-02-21 12:48:58  [ main:257 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 12:48:58  [ main:257 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 42
+2017-02-21 12:48:58  [ main:257 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 12:48:58  [ main:257 ] - [ DEBUG ]  http-outgoing-1 << Set-Cookie: JSESSIONID=E44D7606B6F8CB39303A601B7B137027; Path=/ems_cmcc/; HttpOnly
+2017-02-21 12:48:58  [ main:257 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 12:48:58  [ main:258 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 12:48:58  [ main:258 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="E44D7606B6F8CB39303A601B7B137027", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 12:48:58  [ main:259 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 12:48:58  [ main:259 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:48:58  [ main:260 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 12:48:58  [ main:260 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-02-21 12:48:58  [ main:261 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 12:48:58  [ main:261 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 12:48:58  [ main:261 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2017-02-21 12:48:58  [ main:262 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 12:54:38  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 12:54:38  [ main:28 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 12:54:38  [ main:35 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 12:54:38  [ main:88 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:54:38  [ main:92 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 12:54:38  [ main:102 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 12:54:38  [ main:135 ] - [ DEBUG ]  Connection established 172.23.13.46:56008<->172.23.23.97:80
+2017-02-21 12:54:38  [ main:135 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise?loginName=18867103603&loginPassword=123456789&type=1 HTTP/1.1
+2017-02-21 12:54:38  [ main:136 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 12:54:38  [ main:137 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 12:54:38  [ main:141 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise?loginName=18867103603&loginPassword=123456789&type=1 HTTP/1.1
+2017-02-21 12:54:38  [ main:141 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 12:54:38  [ main:141 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 12:54:38  [ main:141 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 12:54:38  [ main:141 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 12:54:38  [ main:141 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 0
+2017-02-21 12:54:38  [ main:141 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 12:54:38  [ main:142 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise?loginName=18867103603&loginPassword=123456789&type=1 HTTP/1.1[\r][\n]"
+2017-02-21 12:54:38  [ main:142 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 12:54:38  [ main:142 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 12:54:38  [ main:142 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 12:54:38  [ main:142 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 12:54:38  [ main:142 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 0[\r][\n]"
+2017-02-21 12:54:38  [ main:142 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 12:54:38  [ main:143 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 12:54:43  [ main:5221 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 12:54:43  [ main:5221 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 12:54:43  [ main:5222 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 04:54:43 GMT[\r][\n]"
+2017-02-21 12:54:43  [ main:5222 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 12:54:43  [ main:5222 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 145[\r][\n]"
+2017-02-21 12:54:43  [ main:5222 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 12:54:43  [ main:5222 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=2ADC575A95B6F7B2481E4D96D6F7843A; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 12:54:43  [ main:5222 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 12:54:43  [ main:5222 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 12:54:43  [ main:5222 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"1","msg":[{"city":"[0xe6][0x9d][0xad][0xe5][0xb7][0x9e]","enterpriseCode":"2346150430","enterpriseName":"[0xe4][0xb8][0xad][0xe5][0x9b][0xbd][0xe7][0xa7][0xbb][0xe5][0x8a][0xa8][0xef][0xbc][0x88][0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe7][0x8e][0xaf][0xe5][0xa2][0x83][0xef][0xbc][0x89]","logoUrl":"","province":""}]}"
+2017-02-21 12:54:43  [ main:5227 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 12:54:43  [ main:5228 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 12:54:43  [ main:5228 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 04:54:43 GMT
+2017-02-21 12:54:43  [ main:5228 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 12:54:43  [ main:5228 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 145
+2017-02-21 12:54:43  [ main:5228 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 12:54:43  [ main:5228 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=2ADC575A95B6F7B2481E4D96D6F7843A; Path=/ems_cmcc/; HttpOnly
+2017-02-21 12:54:43  [ main:5228 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 12:54:43  [ main:5251 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 12:54:43  [ main:5262 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="2ADC575A95B6F7B2481E4D96D6F7843A", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 12:54:43  [ main:5265 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 12:54:43  [ main:5266 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:54:43  [ main:5297 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 12:54:43  [ main:5312 ] - [ DEBUG ]  Cookie [version: 0][name: HttpOnly][value: ][domain: 172.23.23.97][path: /ems_cmcc/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 12:54:43  [ main:5313 ] - [ DEBUG ]  Cookie [version: 0][name: Path][value: /ems_cmcc/][domain: 172.23.23.97][path: /ems_cmcc/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 12:54:43  [ main:5314 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 12:54:43  [ main:5314 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 12:54:43  [ main:5318 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:54:43  [ main:5319 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 12:54:43  [ main:5320 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 12:54:43  [ main:5345 ] - [ DEBUG ]  Connection established 172.23.13.46:56010<->172.23.23.97:80
+2017-02-21 12:54:43  [ main:5345 ] - [ DEBUG ]  Executing request GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 12:54:43  [ main:5345 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 12:54:43  [ main:5345 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 12:54:43  [ main:5345 ] - [ DEBUG ]  http-outgoing-1 >> GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 12:54:43  [ main:5345 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 12:54:43  [ main:5345 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 12:54:43  [ main:5346 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 12:54:43  [ main:5346 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 12:54:43  [ main:5346 ] - [ DEBUG ]  http-outgoing-1 >> Cookie: HttpOnly=; Path=/ems_cmcc/
+2017-02-21 12:54:43  [ main:5346 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 12:54:43  [ main:5346 ] - [ DEBUG ]  http-outgoing-1 >> "GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1[\r][\n]"
+2017-02-21 12:54:43  [ main:5346 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 12:54:43  [ main:5346 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 12:54:43  [ main:5346 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 12:54:43  [ main:5346 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 12:54:43  [ main:5346 ] - [ DEBUG ]  http-outgoing-1 >> "Cookie: HttpOnly=; Path=/ems_cmcc/[\r][\n]"
+2017-02-21 12:54:43  [ main:5346 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 12:54:43  [ main:5347 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 12:54:43  [ main:5374 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 12:54:43  [ main:5374 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 12:54:43  [ main:5374 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 04:54:43 GMT[\r][\n]"
+2017-02-21 12:54:43  [ main:5375 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 12:54:43  [ main:5375 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 42[\r][\n]"
+2017-02-21 12:54:43  [ main:5375 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 12:54:43  [ main:5375 ] - [ DEBUG ]  http-outgoing-1 << "Set-Cookie: JSESSIONID=91AFA691650C7267C56E8279B6E79B88; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 12:54:43  [ main:5375 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 12:54:43  [ main:5375 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 12:54:43  [ main:5376 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"0","msg":"[0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0xba][0x93][0xe6][0x93][0x8d][0xe4][0xbd][0x9c][0xe5][0xbc][0x82][0xe5][0xb8][0xb8]"}"
+2017-02-21 12:54:43  [ main:5376 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 12:54:43  [ main:5376 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 12:54:43  [ main:5376 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 04:54:43 GMT
+2017-02-21 12:54:43  [ main:5376 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 12:54:43  [ main:5376 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 42
+2017-02-21 12:54:43  [ main:5376 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 12:54:43  [ main:5376 ] - [ DEBUG ]  http-outgoing-1 << Set-Cookie: JSESSIONID=91AFA691650C7267C56E8279B6E79B88; Path=/ems_cmcc/; HttpOnly
+2017-02-21 12:54:43  [ main:5377 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 12:54:43  [ main:5377 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 12:54:43  [ main:5377 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="91AFA691650C7267C56E8279B6E79B88", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 12:54:43  [ main:5378 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 12:54:43  [ main:5378 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 12:54:43  [ main:5378 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 12:54:43  [ main:5380 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-02-21 12:54:43  [ main:5381 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 12:54:43  [ main:5381 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 12:54:43  [ main:5381 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2017-02-21 12:54:43  [ main:5382 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 13:01:28  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 13:01:28  [ main:24 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 13:01:28  [ main:30 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 13:01:28  [ main:65 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:01:28  [ main:68 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 13:01:28  [ main:82 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 13:01:28  [ main:106 ] - [ DEBUG ]  Connection established 172.23.13.46:56172<->172.23.23.97:80
+2017-02-21 13:01:28  [ main:107 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 13:01:28  [ main:107 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 13:01:28  [ main:109 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 13:01:28  [ main:113 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 13:01:28  [ main:113 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 13:01:28  [ main:113 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 13:01:28  [ main:113 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 13:01:28  [ main:113 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 13:01:28  [ main:113 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 0
+2017-02-21 13:01:28  [ main:114 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 13:01:28  [ main:114 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 13:01:28  [ main:114 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 13:01:28  [ main:115 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 13:01:28  [ main:115 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 13:01:28  [ main:115 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 13:01:28  [ main:115 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 0[\r][\n]"
+2017-02-21 13:01:28  [ main:115 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 13:01:28  [ main:115 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 13:01:28  [ main:138 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 13:01:28  [ main:138 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 13:01:28  [ main:139 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 05:01:29 GMT[\r][\n]"
+2017-02-21 13:01:28  [ main:139 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:01:28  [ main:139 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 73[\r][\n]"
+2017-02-21 13:01:28  [ main:139 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 13:01:28  [ main:139 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=FB9A4BA6FA8933D4FD41BD8B043D51C7; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 13:01:28  [ main:139 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 13:01:28  [ main:139 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 13:01:28  [ main:139 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"0","msg":"[[0xe6][0xa0][0xa1][0xe9][0xaa][0x8c][0xe9][0x94][0x99][0xe8][0xaf][0xaf][0xe4][0xbf][0xa1][0xe6][0x81][0xaf]][0xef][0xbc][0x9a]type [0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe4][0xb8][0xba][0xe7][0xa9][0xba][0xe6][0x88][0x96][0xe4][0xb8][0x8d][0xe5][0x90][0x88][0xe6][0xb3][0x95]"}"
+2017-02-21 13:01:28  [ main:145 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 13:01:28  [ main:145 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 13:01:28  [ main:145 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 05:01:29 GMT
+2017-02-21 13:01:28  [ main:145 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 13:01:28  [ main:145 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 73
+2017-02-21 13:01:28  [ main:145 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 13:01:28  [ main:146 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=FB9A4BA6FA8933D4FD41BD8B043D51C7; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:01:28  [ main:146 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 13:01:28  [ main:157 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 13:01:29  [ main:169 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="FB9A4BA6FA8933D4FD41BD8B043D51C7", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 13:01:29  [ main:173 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 13:01:29  [ main:173 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:01:29  [ main:194 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 13:01:29  [ main:194 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 13:01:29  [ main:195 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 13:01:29  [ main:196 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:01:29  [ main:196 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 13:01:29  [ main:199 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 13:01:29  [ main:213 ] - [ DEBUG ]  Connection established 172.23.13.46:56173<->172.23.23.97:80
+2017-02-21 13:01:29  [ main:213 ] - [ DEBUG ]  Executing request GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 13:01:29  [ main:213 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 13:01:29  [ main:214 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 13:01:29  [ main:214 ] - [ DEBUG ]  http-outgoing-1 >> GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 13:01:29  [ main:214 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 13:01:29  [ main:214 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 13:01:29  [ main:214 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 13:01:29  [ main:214 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 13:01:29  [ main:214 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 13:01:29  [ main:214 ] - [ DEBUG ]  http-outgoing-1 >> "GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1[\r][\n]"
+2017-02-21 13:01:29  [ main:215 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:01:29  [ main:215 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 13:01:29  [ main:215 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 13:01:29  [ main:215 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 13:01:29  [ main:215 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 13:01:29  [ main:215 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 13:01:29  [ main:234 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 13:01:29  [ main:235 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 13:01:29  [ main:235 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 05:01:29 GMT[\r][\n]"
+2017-02-21 13:01:29  [ main:235 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:01:29  [ main:235 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 42[\r][\n]"
+2017-02-21 13:01:29  [ main:235 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 13:01:29  [ main:235 ] - [ DEBUG ]  http-outgoing-1 << "Set-Cookie: JSESSIONID=928A5575BD87D2B9C4C7A0BB375E80F5; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 13:01:29  [ main:235 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 13:01:29  [ main:235 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 13:01:29  [ main:236 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"0","msg":"[0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0xba][0x93][0xe6][0x93][0x8d][0xe4][0xbd][0x9c][0xe5][0xbc][0x82][0xe5][0xb8][0xb8]"}"
+2017-02-21 13:01:29  [ main:236 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 13:01:29  [ main:236 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 13:01:29  [ main:236 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 05:01:29 GMT
+2017-02-21 13:01:29  [ main:236 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 13:01:29  [ main:236 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 42
+2017-02-21 13:01:29  [ main:236 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 13:01:29  [ main:236 ] - [ DEBUG ]  http-outgoing-1 << Set-Cookie: JSESSIONID=928A5575BD87D2B9C4C7A0BB375E80F5; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:01:29  [ main:236 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 13:01:29  [ main:237 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 13:01:29  [ main:237 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="928A5575BD87D2B9C4C7A0BB375E80F5", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 13:01:29  [ main:238 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 13:01:29  [ main:238 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:01:29  [ main:238 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 13:01:29  [ main:239 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-02-21 13:01:29  [ main:240 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 13:01:29  [ main:240 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 13:01:29  [ main:240 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2017-02-21 13:01:29  [ main:240 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 13:30:39  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 13:30:39  [ main:36 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 13:30:39  [ main:43 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 13:30:39  [ main:102 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:30:39  [ main:106 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 13:30:39  [ main:116 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 13:30:39  [ main:138 ] - [ DEBUG ]  Connection established 172.23.13.46:56771<->172.23.23.97:80
+2017-02-21 13:30:39  [ main:138 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 13:30:39  [ main:139 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 13:30:39  [ main:141 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 13:30:39  [ main:146 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 13:30:39  [ main:146 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 13:30:39  [ main:146 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 13:30:39  [ main:146 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 13:30:39  [ main:146 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 13:30:39  [ main:146 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 0
+2017-02-21 13:30:39  [ main:147 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 13:30:39  [ main:147 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 13:30:39  [ main:147 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 13:30:39  [ main:147 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 13:30:39  [ main:147 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 13:30:39  [ main:147 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 13:30:39  [ main:148 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 0[\r][\n]"
+2017-02-21 13:30:39  [ main:148 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 13:30:39  [ main:148 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 13:30:47  [ main:8289 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 13:30:47  [ main:8290 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 13:30:47  [ main:8290 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 05:30:47 GMT[\r][\n]"
+2017-02-21 13:30:47  [ main:8290 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:30:47  [ main:8290 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 73[\r][\n]"
+2017-02-21 13:30:47  [ main:8290 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 13:30:47  [ main:8290 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=82FE9E41732109F503DFAD3D6904C80A; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 13:30:47  [ main:8290 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 13:30:47  [ main:8291 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 13:30:47  [ main:8291 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"0","msg":"[[0xe6][0xa0][0xa1][0xe9][0xaa][0x8c][0xe9][0x94][0x99][0xe8][0xaf][0xaf][0xe4][0xbf][0xa1][0xe6][0x81][0xaf]][0xef][0xbc][0x9a]type [0xe5][0x8f][0x82][0xe6][0x95][0xb0][0xe4][0xb8][0xba][0xe7][0xa9][0xba][0xe6][0x88][0x96][0xe4][0xb8][0x8d][0xe5][0x90][0x88][0xe6][0xb3][0x95]"}"
+2017-02-21 13:30:47  [ main:8298 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 13:30:47  [ main:8299 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 13:30:47  [ main:8299 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 05:30:47 GMT
+2017-02-21 13:30:47  [ main:8299 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 13:30:47  [ main:8299 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 73
+2017-02-21 13:30:47  [ main:8299 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 13:30:47  [ main:8299 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=82FE9E41732109F503DFAD3D6904C80A; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:30:47  [ main:8299 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 13:30:47  [ main:8312 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 13:30:47  [ main:8328 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="82FE9E41732109F503DFAD3D6904C80A", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 13:30:47  [ main:8331 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 13:30:47  [ main:8331 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:30:56  [ main:16637 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 13:30:56  [ main:16638 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 13:30:56  [ main:16638 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 13:30:56  [ main:16640 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:30:56  [ main:16640 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 13:30:56  [ main:16641 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 13:30:56  [ main:16674 ] - [ DEBUG ]  Connection established 172.23.13.46:56775<->172.23.23.97:80
+2017-02-21 13:30:56  [ main:16674 ] - [ DEBUG ]  Executing request GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 13:30:56  [ main:16675 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 13:30:56  [ main:16675 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 13:30:56  [ main:16675 ] - [ DEBUG ]  http-outgoing-1 >> GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 13:30:56  [ main:16676 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 13:30:56  [ main:16676 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 13:30:56  [ main:16676 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 13:30:56  [ main:16676 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 13:30:56  [ main:16676 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 13:30:56  [ main:16676 ] - [ DEBUG ]  http-outgoing-1 >> "GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1[\r][\n]"
+2017-02-21 13:30:56  [ main:16676 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:30:56  [ main:16676 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 13:30:56  [ main:16676 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 13:30:56  [ main:16676 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 13:30:56  [ main:16677 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 13:30:56  [ main:16677 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 13:31:07  [ main:28368 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 13:31:07  [ main:28368 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 13:31:07  [ main:28368 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 05:31:07 GMT[\r][\n]"
+2017-02-21 13:31:07  [ main:28369 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:31:07  [ main:28369 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 42[\r][\n]"
+2017-02-21 13:31:07  [ main:28369 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 13:31:07  [ main:28369 ] - [ DEBUG ]  http-outgoing-1 << "Set-Cookie: JSESSIONID=1B7B8083D35C7DB77FF3ED004941FF22; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 13:31:07  [ main:28369 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 13:31:07  [ main:28369 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 13:31:07  [ main:28369 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"0","msg":"[0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0xba][0x93][0xe6][0x93][0x8d][0xe4][0xbd][0x9c][0xe5][0xbc][0x82][0xe5][0xb8][0xb8]"}"
+2017-02-21 13:31:07  [ main:28369 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 13:31:07  [ main:28370 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 13:31:07  [ main:28370 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 05:31:07 GMT
+2017-02-21 13:31:07  [ main:28370 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 13:31:07  [ main:28370 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 42
+2017-02-21 13:31:07  [ main:28370 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 13:31:07  [ main:28370 ] - [ DEBUG ]  http-outgoing-1 << Set-Cookie: JSESSIONID=1B7B8083D35C7DB77FF3ED004941FF22; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:31:07  [ main:28370 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 13:31:07  [ main:28370 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 13:31:07  [ main:28371 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="1B7B8083D35C7DB77FF3ED004941FF22", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 13:31:07  [ main:28371 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 13:31:07  [ main:28372 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:31:07  [ main:28372 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 13:31:07  [ main:28373 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-02-21 13:31:07  [ main:28373 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 13:31:07  [ main:28374 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 13:31:07  [ main:28374 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2017-02-21 13:31:07  [ main:28374 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 13:38:53  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 13:38:53  [ main:25 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 13:38:53  [ main:29 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 13:38:53  [ main:86 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:38:53  [ main:89 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 13:38:53  [ main:100 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 13:38:53  [ main:126 ] - [ DEBUG ]  Connection established 172.23.13.46:56910<->172.23.23.97:80
+2017-02-21 13:38:53  [ main:126 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 13:38:53  [ main:126 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 13:38:53  [ main:127 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 13:38:53  [ main:132 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 13:38:53  [ main:132 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 13:38:53  [ main:132 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 13:38:53  [ main:132 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 13:38:53  [ main:132 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 13:38:53  [ main:132 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 52
+2017-02-21 13:38:53  [ main:132 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 13:38:53  [ main:133 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 13:38:53  [ main:133 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 13:38:53  [ main:133 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 13:38:53  [ main:133 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 13:38:53  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 13:38:53  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 52[\r][\n]"
+2017-02-21 13:38:53  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 13:38:53  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 13:38:53  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> "loginName=18867103603&loginPassword=123456789&type=1"
+2017-02-21 13:38:53  [ main:184 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 13:38:53  [ main:184 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 13:38:53  [ main:184 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 05:38:53 GMT[\r][\n]"
+2017-02-21 13:38:53  [ main:185 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:38:53  [ main:185 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 145[\r][\n]"
+2017-02-21 13:38:53  [ main:185 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 13:38:53  [ main:185 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=7F0B0709C3638A742A0EDD86C4F0701D; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 13:38:53  [ main:185 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 13:38:53  [ main:185 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 13:38:53  [ main:185 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"1","msg":[{"city":"[0xe6][0x9d][0xad][0xe5][0xb7][0x9e]","enterpriseCode":"2346150430","enterpriseName":"[0xe4][0xb8][0xad][0xe5][0x9b][0xbd][0xe7][0xa7][0xbb][0xe5][0x8a][0xa8][0xef][0xbc][0x88][0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe7][0x8e][0xaf][0xe5][0xa2][0x83][0xef][0xbc][0x89]","logoUrl":"","province":""}]}"
+2017-02-21 13:38:53  [ main:191 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 13:38:53  [ main:191 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 13:38:53  [ main:191 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 05:38:53 GMT
+2017-02-21 13:38:53  [ main:191 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 13:38:53  [ main:191 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 145
+2017-02-21 13:38:53  [ main:191 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 13:38:53  [ main:191 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=7F0B0709C3638A742A0EDD86C4F0701D; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:38:53  [ main:191 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 13:38:53  [ main:200 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 13:38:53  [ main:211 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="7F0B0709C3638A742A0EDD86C4F0701D", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 13:38:53  [ main:215 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 13:38:53  [ main:215 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:38:53  [ main:246 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 13:38:53  [ main:246 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 13:38:53  [ main:248 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 13:38:53  [ main:248 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:38:53  [ main:251 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 13:38:53  [ main:253 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 13:38:53  [ main:273 ] - [ DEBUG ]  Connection established 172.23.13.46:56911<->172.23.23.97:80
+2017-02-21 13:38:53  [ main:274 ] - [ DEBUG ]  Executing request GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 13:38:53  [ main:274 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 13:38:53  [ main:274 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 13:38:53  [ main:274 ] - [ DEBUG ]  http-outgoing-1 >> GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 13:38:53  [ main:274 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 13:38:53  [ main:274 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 13:38:53  [ main:274 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 13:38:53  [ main:275 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 13:38:53  [ main:275 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 13:38:53  [ main:275 ] - [ DEBUG ]  http-outgoing-1 >> "GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1[\r][\n]"
+2017-02-21 13:38:53  [ main:275 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:38:53  [ main:275 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 13:38:53  [ main:275 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 13:38:53  [ main:275 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 13:38:53  [ main:275 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 13:38:53  [ main:275 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 13:38:53  [ main:334 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 13:38:53  [ main:334 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 13:38:53  [ main:334 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 05:38:53 GMT[\r][\n]"
+2017-02-21 13:38:53  [ main:334 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:38:53  [ main:334 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 42[\r][\n]"
+2017-02-21 13:38:53  [ main:334 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 13:38:53  [ main:334 ] - [ DEBUG ]  http-outgoing-1 << "Set-Cookie: JSESSIONID=0E782E7637FF2EB8B1CD90633899FDD2; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 13:38:53  [ main:335 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 13:38:53  [ main:335 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 13:38:53  [ main:335 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"0","msg":"[0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0xba][0x93][0xe6][0x93][0x8d][0xe4][0xbd][0x9c][0xe5][0xbc][0x82][0xe5][0xb8][0xb8]"}"
+2017-02-21 13:38:53  [ main:336 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 13:38:53  [ main:336 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 13:38:53  [ main:336 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 05:38:53 GMT
+2017-02-21 13:38:53  [ main:336 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 13:38:53  [ main:336 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 42
+2017-02-21 13:38:53  [ main:337 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 13:38:53  [ main:337 ] - [ DEBUG ]  http-outgoing-1 << Set-Cookie: JSESSIONID=0E782E7637FF2EB8B1CD90633899FDD2; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:38:53  [ main:337 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 13:38:53  [ main:338 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 13:38:53  [ main:338 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="0E782E7637FF2EB8B1CD90633899FDD2", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 13:38:53  [ main:339 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 13:38:53  [ main:339 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:38:53  [ main:339 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 13:38:53  [ main:340 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-02-21 13:38:53  [ main:341 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 13:38:53  [ main:341 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 13:38:53  [ main:341 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2017-02-21 13:38:53  [ main:341 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 13:41:20  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 13:41:20  [ main:25 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 13:41:20  [ main:28 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 13:41:20  [ main:62 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:41:20  [ main:65 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 13:41:20  [ main:74 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 13:41:20  [ main:91 ] - [ DEBUG ]  Connection established 172.23.13.46:56948<->172.23.23.97:80
+2017-02-21 13:41:20  [ main:91 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 13:41:20  [ main:92 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 13:41:20  [ main:93 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 13:41:20  [ main:97 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 13:41:20  [ main:97 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 13:41:20  [ main:97 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 13:41:20  [ main:97 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 13:41:20  [ main:97 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 13:41:20  [ main:97 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 52
+2017-02-21 13:41:20  [ main:97 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 13:41:20  [ main:98 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 13:41:20  [ main:98 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 13:41:20  [ main:98 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 13:41:20  [ main:98 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 13:41:20  [ main:99 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 13:41:20  [ main:99 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 52[\r][\n]"
+2017-02-21 13:41:20  [ main:99 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 13:41:20  [ main:99 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 13:41:20  [ main:99 ] - [ DEBUG ]  http-outgoing-0 >> "loginName=18867103603&loginPassword=123456789&type=1"
+2017-02-21 13:41:20  [ main:132 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 13:41:20  [ main:132 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 13:41:20  [ main:132 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 05:41:20 GMT[\r][\n]"
+2017-02-21 13:41:20  [ main:132 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:41:20  [ main:132 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 145[\r][\n]"
+2017-02-21 13:41:20  [ main:132 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 13:41:20  [ main:133 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=55553C33B008C76B4A11D275024BCB15; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 13:41:20  [ main:133 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 13:41:20  [ main:133 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 13:41:20  [ main:133 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"1","msg":[{"city":"[0xe6][0x9d][0xad][0xe5][0xb7][0x9e]","enterpriseCode":"2346150430","enterpriseName":"[0xe4][0xb8][0xad][0xe5][0x9b][0xbd][0xe7][0xa7][0xbb][0xe5][0x8a][0xa8][0xef][0xbc][0x88][0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe7][0x8e][0xaf][0xe5][0xa2][0x83][0xef][0xbc][0x89]","logoUrl":"","province":""}]}"
+2017-02-21 13:41:20  [ main:157 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 13:41:20  [ main:158 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 13:41:20  [ main:158 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 05:41:20 GMT
+2017-02-21 13:41:20  [ main:158 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 13:41:20  [ main:158 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 145
+2017-02-21 13:41:20  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 13:41:20  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=55553C33B008C76B4A11D275024BCB15; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:41:20  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 13:41:20  [ main:167 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 13:41:20  [ main:177 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="55553C33B008C76B4A11D275024BCB15", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 13:41:20  [ main:187 ] - [ DEBUG ]  Cookies:JSESSIONID=55553C33B008C76B4A11D275024BCB15; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:41:20  [ main:189 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 13:41:20  [ main:190 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:41:20  [ main:206 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 13:41:20  [ main:207 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 13:41:20  [ main:207 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 13:41:20  [ main:207 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:41:20  [ main:207 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 13:41:20  [ main:208 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 13:41:21  [ main:230 ] - [ DEBUG ]  Connection established 172.23.13.46:56949<->172.23.23.97:80
+2017-02-21 13:41:21  [ main:230 ] - [ DEBUG ]  Executing request GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 13:41:21  [ main:230 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 13:41:21  [ main:230 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 13:41:21  [ main:231 ] - [ DEBUG ]  http-outgoing-1 >> GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 13:41:21  [ main:231 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 13:41:21  [ main:231 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 13:41:21  [ main:231 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 13:41:21  [ main:231 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 13:41:21  [ main:231 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 13:41:21  [ main:231 ] - [ DEBUG ]  http-outgoing-1 >> "GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1[\r][\n]"
+2017-02-21 13:41:21  [ main:231 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:41:21  [ main:231 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 13:41:21  [ main:232 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 13:41:21  [ main:232 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 13:41:21  [ main:232 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 13:41:21  [ main:232 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 13:41:21  [ main:273 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 13:41:21  [ main:273 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 13:41:21  [ main:274 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 05:41:21 GMT[\r][\n]"
+2017-02-21 13:41:21  [ main:274 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:41:21  [ main:274 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 42[\r][\n]"
+2017-02-21 13:41:21  [ main:274 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 13:41:21  [ main:274 ] - [ DEBUG ]  http-outgoing-1 << "Set-Cookie: JSESSIONID=D314C753DCA02A6A7C5694AF41538439; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 13:41:21  [ main:274 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 13:41:21  [ main:274 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 13:41:21  [ main:274 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"0","msg":"[0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0xba][0x93][0xe6][0x93][0x8d][0xe4][0xbd][0x9c][0xe5][0xbc][0x82][0xe5][0xb8][0xb8]"}"
+2017-02-21 13:41:21  [ main:274 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 13:41:21  [ main:274 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 13:41:21  [ main:275 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 05:41:21 GMT
+2017-02-21 13:41:21  [ main:275 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 13:41:21  [ main:275 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 42
+2017-02-21 13:41:21  [ main:275 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 13:41:21  [ main:275 ] - [ DEBUG ]  http-outgoing-1 << Set-Cookie: JSESSIONID=D314C753DCA02A6A7C5694AF41538439; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:41:21  [ main:275 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 13:41:21  [ main:275 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 13:41:21  [ main:276 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="D314C753DCA02A6A7C5694AF41538439", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 13:41:21  [ main:276 ] - [ DEBUG ]  Cookies:JSESSIONID=D314C753DCA02A6A7C5694AF41538439; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:41:21  [ main:276 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 13:41:21  [ main:277 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:41:21  [ main:280 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 13:41:21  [ main:286 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-02-21 13:41:21  [ main:287 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 13:41:21  [ main:287 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 13:41:21  [ main:287 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2017-02-21 13:41:21  [ main:287 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 13:42:49  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 13:42:49  [ main:30 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 13:42:49  [ main:34 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 13:42:49  [ main:85 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:42:49  [ main:89 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 13:42:49  [ main:99 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 13:42:49  [ main:117 ] - [ DEBUG ]  Connection established 172.23.13.46:56973<->172.23.23.97:80
+2017-02-21 13:42:49  [ main:118 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 13:42:49  [ main:118 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 13:42:49  [ main:120 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 13:42:49  [ main:125 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 13:42:49  [ main:125 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 13:42:49  [ main:125 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 13:42:49  [ main:125 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 13:42:49  [ main:125 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 13:42:49  [ main:125 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 52
+2017-02-21 13:42:49  [ main:125 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 13:42:49  [ main:126 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 13:42:49  [ main:126 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 13:42:49  [ main:126 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 13:42:49  [ main:126 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 13:42:49  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 13:42:49  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 52[\r][\n]"
+2017-02-21 13:42:49  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 13:42:49  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 13:42:49  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> "loginName=18867103603&loginPassword=123456789&type=1"
+2017-02-21 13:42:49  [ main:150 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 13:42:49  [ main:151 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 13:42:49  [ main:151 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 05:42:49 GMT[\r][\n]"
+2017-02-21 13:42:49  [ main:151 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:42:49  [ main:151 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 145[\r][\n]"
+2017-02-21 13:42:49  [ main:151 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 13:42:49  [ main:151 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=0674099BD29297350ADD36459178861A; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 13:42:49  [ main:152 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 13:42:49  [ main:152 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 13:42:49  [ main:152 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"1","msg":[{"city":"[0xe6][0x9d][0xad][0xe5][0xb7][0x9e]","enterpriseCode":"2346150430","enterpriseName":"[0xe4][0xb8][0xad][0xe5][0x9b][0xbd][0xe7][0xa7][0xbb][0xe5][0x8a][0xa8][0xef][0xbc][0x88][0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe7][0x8e][0xaf][0xe5][0xa2][0x83][0xef][0xbc][0x89]","logoUrl":"","province":""}]}"
+2017-02-21 13:42:49  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 13:42:49  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 13:42:49  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 05:42:49 GMT
+2017-02-21 13:42:49  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 13:42:49  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 145
+2017-02-21 13:42:49  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 13:42:49  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=0674099BD29297350ADD36459178861A; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:42:49  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 13:42:49  [ main:171 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 13:42:49  [ main:184 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="0674099BD29297350ADD36459178861A", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 13:43:17  [ main:28040 ] - [ DEBUG ]  Cookies:JSESSIONID=0674099BD29297350ADD36459178861A; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:43:41  [ main:52526 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 13:43:41  [ main:52526 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:43:41  [ main:52572 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 13:43:41  [ main:52573 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 13:43:41  [ main:52573 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 13:43:41  [ main:52573 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:43:41  [ main:52573 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 13:43:41  [ main:52574 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 13:43:41  [ main:52614 ] - [ DEBUG ]  Connection established 172.23.13.46:56983<->172.23.23.97:80
+2017-02-21 13:43:41  [ main:52614 ] - [ DEBUG ]  Executing request GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 13:43:41  [ main:52615 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 13:43:41  [ main:52615 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 13:43:41  [ main:52615 ] - [ DEBUG ]  http-outgoing-1 >> GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 13:43:41  [ main:52615 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 13:43:41  [ main:52615 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 13:43:41  [ main:52615 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 13:43:41  [ main:52615 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 13:43:41  [ main:52615 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 13:43:41  [ main:52616 ] - [ DEBUG ]  http-outgoing-1 >> "GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1[\r][\n]"
+2017-02-21 13:43:41  [ main:52616 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:43:41  [ main:52616 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 13:43:41  [ main:52616 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 13:43:41  [ main:52616 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 13:43:41  [ main:52616 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 13:43:41  [ main:52616 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 13:43:42  [ main:52984 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 13:43:42  [ main:52984 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 13:43:42  [ main:52985 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 05:43:42 GMT[\r][\n]"
+2017-02-21 13:43:42  [ main:52985 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:43:42  [ main:52985 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 42[\r][\n]"
+2017-02-21 13:43:42  [ main:52986 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 13:43:42  [ main:52986 ] - [ DEBUG ]  http-outgoing-1 << "Set-Cookie: JSESSIONID=4E33C6DC6A33DCA71ED728A41170245C; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 13:43:42  [ main:52986 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 13:43:42  [ main:52986 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 13:43:42  [ main:52986 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"0","msg":"[0xe6][0x95][0xb0][0xe6][0x8d][0xae][0xe5][0xba][0x93][0xe6][0x93][0x8d][0xe4][0xbd][0x9c][0xe5][0xbc][0x82][0xe5][0xb8][0xb8]"}"
+2017-02-21 13:43:42  [ main:52987 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 13:43:42  [ main:52987 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 13:43:42  [ main:52987 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 05:43:42 GMT
+2017-02-21 13:43:42  [ main:52987 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 13:43:42  [ main:52987 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 42
+2017-02-21 13:43:42  [ main:52987 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 13:43:42  [ main:52987 ] - [ DEBUG ]  http-outgoing-1 << Set-Cookie: JSESSIONID=4E33C6DC6A33DCA71ED728A41170245C; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:43:42  [ main:52987 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 13:43:42  [ main:52988 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 13:43:42  [ main:52988 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="4E33C6DC6A33DCA71ED728A41170245C", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 13:43:47  [ main:58500 ] - [ DEBUG ]  Cookies:JSESSIONID=4E33C6DC6A33DCA71ED728A41170245C; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:57:53  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 13:57:53  [ main:24 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 13:57:53  [ main:28 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 13:57:53  [ main:62 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:57:53  [ main:65 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 13:57:53  [ main:74 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 13:57:53  [ main:524 ] - [ DEBUG ]  Connection established 172.23.13.46:57391<->172.23.23.97:80
+2017-02-21 13:57:53  [ main:524 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 13:57:53  [ main:525 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 13:57:53  [ main:526 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 13:57:53  [ main:529 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 13:57:53  [ main:530 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 13:57:53  [ main:530 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 13:57:53  [ main:530 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 13:57:53  [ main:530 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 13:57:53  [ main:530 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 52
+2017-02-21 13:57:53  [ main:531 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 13:57:53  [ main:531 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 13:57:53  [ main:532 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 13:57:53  [ main:533 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 13:57:53  [ main:534 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 13:57:53  [ main:534 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 13:57:53  [ main:534 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 52[\r][\n]"
+2017-02-21 13:57:53  [ main:534 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 13:57:53  [ main:535 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 13:57:53  [ main:535 ] - [ DEBUG ]  http-outgoing-0 >> "loginName=18867103603&loginPassword=123456789&type=1"
+2017-02-21 13:57:53  [ main:563 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 13:57:53  [ main:563 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 13:57:53  [ main:563 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 05:57:53 GMT[\r][\n]"
+2017-02-21 13:57:53  [ main:563 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:57:53  [ main:563 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 145[\r][\n]"
+2017-02-21 13:57:53  [ main:563 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 13:57:53  [ main:564 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=2561C46831BFA4394A5C5ED028B50C10; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 13:57:53  [ main:564 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 13:57:53  [ main:564 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 13:57:53  [ main:564 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"1","msg":[{"city":"[0xe6][0x9d][0xad][0xe5][0xb7][0x9e]","enterpriseCode":"2346150430","enterpriseName":"[0xe4][0xb8][0xad][0xe5][0x9b][0xbd][0xe7][0xa7][0xbb][0xe5][0x8a][0xa8][0xef][0xbc][0x88][0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe7][0x8e][0xaf][0xe5][0xa2][0x83][0xef][0xbc][0x89]","logoUrl":"","province":""}]}"
+2017-02-21 13:57:53  [ main:569 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 13:57:53  [ main:570 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 13:57:53  [ main:570 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 05:57:53 GMT
+2017-02-21 13:57:53  [ main:570 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 13:57:53  [ main:570 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 145
+2017-02-21 13:57:53  [ main:570 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 13:57:53  [ main:570 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=2561C46831BFA4394A5C5ED028B50C10; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:57:53  [ main:570 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 13:57:53  [ main:579 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 13:57:53  [ main:589 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="2561C46831BFA4394A5C5ED028B50C10", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 13:57:53  [ main:601 ] - [ DEBUG ]  Cookies:JSESSIONID=2561C46831BFA4394A5C5ED028B50C10; Path=/ems_cmcc/; HttpOnly
+2017-02-21 13:57:53  [ main:604 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 13:57:53  [ main:609 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:57:53  [ main:630 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 13:57:53  [ main:650 ] - [ DEBUG ]  Cookie [version: 0][name: JSESSIONID][value: 2561C46831BFA4394A5C5ED028B50C10][domain: 172.23.23.97][path: /ems_cmcc/new/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 13:57:53  [ main:651 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 13:57:53  [ main:655 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 13:57:53  [ main:659 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:57:53  [ main:659 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 13:57:53  [ main:659 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 13:57:53  [ main:683 ] - [ DEBUG ]  Connection established 172.23.13.46:57392<->172.23.23.97:80
+2017-02-21 13:57:53  [ main:683 ] - [ DEBUG ]  Executing request GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 13:57:53  [ main:684 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 13:57:53  [ main:684 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 13:57:53  [ main:684 ] - [ DEBUG ]  http-outgoing-1 >> GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 13:57:53  [ main:684 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 13:57:53  [ main:684 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 13:57:53  [ main:688 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 13:57:53  [ main:688 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 13:57:53  [ main:688 ] - [ DEBUG ]  http-outgoing-1 >> Cookie: JSESSIONID=2561C46831BFA4394A5C5ED028B50C10
+2017-02-21 13:57:53  [ main:688 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 13:57:53  [ main:688 ] - [ DEBUG ]  http-outgoing-1 >> "GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1[\r][\n]"
+2017-02-21 13:57:53  [ main:688 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:57:53  [ main:688 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 13:57:53  [ main:689 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 13:57:53  [ main:689 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 13:57:53  [ main:689 ] - [ DEBUG ]  http-outgoing-1 >> "Cookie: JSESSIONID=2561C46831BFA4394A5C5ED028B50C10[\r][\n]"
+2017-02-21 13:57:53  [ main:689 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 13:57:53  [ main:689 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 13:57:53  [ main:732 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 13:57:53  [ main:732 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 13:57:53  [ main:733 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 05:57:53 GMT[\r][\n]"
+2017-02-21 13:57:53  [ main:733 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 13:57:53  [ main:733 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 21[\r][\n]"
+2017-02-21 13:57:53  [ main:733 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 13:57:53  [ main:733 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 13:57:53  [ main:733 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 13:57:53  [ main:733 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"2","msg":""}"
+2017-02-21 13:57:53  [ main:733 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 13:57:53  [ main:733 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 13:57:53  [ main:734 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 05:57:53 GMT
+2017-02-21 13:57:53  [ main:734 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 13:57:53  [ main:734 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 21
+2017-02-21 13:57:53  [ main:734 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 13:57:53  [ main:734 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 13:57:53  [ main:734 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 13:57:53  [ main:735 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 13:57:53  [ main:735 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 13:57:53  [ main:735 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 13:57:53  [ main:736 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-02-21 13:57:53  [ main:736 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 13:57:53  [ main:737 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 13:57:53  [ main:737 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2017-02-21 13:57:53  [ main:737 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 15:51:46  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 15:51:46  [ main:36 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 15:51:46  [ main:40 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 15:51:46  [ main:86 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 15:51:46  [ main:90 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 15:51:46  [ main:100 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 15:51:46  [ main:114 ] - [ DEBUG ]  Connection established 172.23.13.46:57050<->172.23.23.97:80
+2017-02-21 15:51:46  [ main:114 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 15:51:46  [ main:114 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 15:51:46  [ main:116 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 15:51:46  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 15:51:46  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 15:51:46  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 15:51:46  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 15:51:46  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 15:51:46  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 52
+2017-02-21 15:51:46  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 15:51:46  [ main:121 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 15:51:46  [ main:121 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 15:51:46  [ main:121 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 15:51:46  [ main:121 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 15:51:46  [ main:122 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 15:51:46  [ main:122 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 52[\r][\n]"
+2017-02-21 15:51:46  [ main:122 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 15:51:46  [ main:122 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 15:51:46  [ main:122 ] - [ DEBUG ]  http-outgoing-0 >> "loginName=18867103603&loginPassword=123456789&type=1"
+2017-02-21 15:51:46  [ main:148 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 15:51:46  [ main:149 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 15:51:46  [ main:149 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 07:51:47 GMT[\r][\n]"
+2017-02-21 15:51:46  [ main:149 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 15:51:46  [ main:149 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 145[\r][\n]"
+2017-02-21 15:51:46  [ main:149 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 15:51:46  [ main:149 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=D6FBA7537761F0FCD54DB22CD3FD5494; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 15:51:46  [ main:149 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 15:51:46  [ main:149 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 15:51:46  [ main:150 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"1","msg":[{"city":"[0xe6][0x9d][0xad][0xe5][0xb7][0x9e]","enterpriseCode":"2346150430","enterpriseName":"[0xe4][0xb8][0xad][0xe5][0x9b][0xbd][0xe7][0xa7][0xbb][0xe5][0x8a][0xa8][0xef][0xbc][0x88][0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe7][0x8e][0xaf][0xe5][0xa2][0x83][0xef][0xbc][0x89]","logoUrl":"","province":""}]}"
+2017-02-21 15:51:46  [ main:155 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 15:51:46  [ main:155 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 15:51:46  [ main:155 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 07:51:47 GMT
+2017-02-21 15:51:46  [ main:155 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 15:51:46  [ main:155 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 145
+2017-02-21 15:51:46  [ main:156 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 15:51:46  [ main:156 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=D6FBA7537761F0FCD54DB22CD3FD5494; Path=/ems_cmcc/; HttpOnly
+2017-02-21 15:51:46  [ main:156 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 15:51:46  [ main:165 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 15:51:46  [ main:178 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="D6FBA7537761F0FCD54DB22CD3FD5494", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 15:51:47  [ main:194 ] - [ DEBUG ]  Cookies:JSESSIONID=D6FBA7537761F0FCD54DB22CD3FD5494; Path=/ems_cmcc/; HttpOnly
+2017-02-21 15:51:47  [ main:197 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 15:51:47  [ main:198 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 15:51:47  [ main:228 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 15:51:47  [ main:253 ] - [ DEBUG ]  Cookie [version: 0][name: JSESSIONID][value: D6FBA7537761F0FCD54DB22CD3FD5494][domain: 172.23.23.97][path: /ems_cmcc/new/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 15:51:47  [ main:254 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 15:51:47  [ main:258 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 15:51:47  [ main:258 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 15:51:47  [ main:259 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 15:51:47  [ main:259 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 15:51:47  [ main:282 ] - [ DEBUG ]  Connection established 172.23.13.46:57051<->172.23.23.97:80
+2017-02-21 15:51:47  [ main:283 ] - [ DEBUG ]  Executing request GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 15:51:47  [ main:283 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 15:51:47  [ main:283 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 15:51:47  [ main:283 ] - [ DEBUG ]  http-outgoing-1 >> GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 15:51:47  [ main:283 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 15:51:47  [ main:283 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 15:51:47  [ main:283 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 15:51:47  [ main:283 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 15:51:47  [ main:284 ] - [ DEBUG ]  http-outgoing-1 >> Cookie: JSESSIONID=D6FBA7537761F0FCD54DB22CD3FD5494
+2017-02-21 15:51:47  [ main:284 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 15:51:47  [ main:284 ] - [ DEBUG ]  http-outgoing-1 >> "GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1[\r][\n]"
+2017-02-21 15:51:47  [ main:284 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 15:51:47  [ main:284 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 15:51:47  [ main:284 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 15:51:47  [ main:284 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 15:51:47  [ main:284 ] - [ DEBUG ]  http-outgoing-1 >> "Cookie: JSESSIONID=D6FBA7537761F0FCD54DB22CD3FD5494[\r][\n]"
+2017-02-21 15:51:47  [ main:284 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 15:51:47  [ main:284 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 15:51:47  [ main:307 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 15:51:47  [ main:307 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 15:51:47  [ main:307 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 07:51:47 GMT[\r][\n]"
+2017-02-21 15:51:47  [ main:307 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 15:51:47  [ main:307 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 21[\r][\n]"
+2017-02-21 15:51:47  [ main:307 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 15:51:47  [ main:307 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 15:51:47  [ main:307 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 15:51:47  [ main:307 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"2","msg":""}"
+2017-02-21 15:51:47  [ main:308 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 15:51:47  [ main:308 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 15:51:47  [ main:308 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 07:51:47 GMT
+2017-02-21 15:51:47  [ main:308 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 15:51:47  [ main:308 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 21
+2017-02-21 15:51:47  [ main:308 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 15:51:47  [ main:308 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 15:51:47  [ main:308 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 15:51:47  [ main:309 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 15:51:47  [ main:309 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 15:51:47  [ main:309 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 15:51:47  [ main:310 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-02-21 15:51:47  [ main:311 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 15:51:47  [ main:311 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 15:51:47  [ main:311 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2017-02-21 15:51:47  [ main:311 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 15:53:58  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 15:53:58  [ main:45 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 15:53:58  [ main:49 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 15:53:58  [ main:116 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 15:53:58  [ main:120 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 15:53:58  [ main:129 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 15:53:58  [ main:147 ] - [ DEBUG ]  Connection established 172.23.13.46:57090<->172.23.23.97:80
+2017-02-21 15:53:58  [ main:148 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 15:53:58  [ main:148 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 15:53:58  [ main:153 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 15:53:58  [ main:157 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 15:53:58  [ main:162 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 15:53:58  [ main:166 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 15:53:58  [ main:167 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 15:53:58  [ main:167 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 15:53:58  [ main:167 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 52
+2017-02-21 15:53:58  [ main:167 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 15:53:58  [ main:168 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 15:53:58  [ main:168 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 15:53:58  [ main:168 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 15:53:58  [ main:169 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 15:53:58  [ main:169 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 15:53:58  [ main:170 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 52[\r][\n]"
+2017-02-21 15:53:58  [ main:170 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 15:53:58  [ main:170 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 15:53:58  [ main:171 ] - [ DEBUG ]  http-outgoing-0 >> "loginName=18867103603&loginPassword=123456789&type=1"
+2017-02-21 15:53:59  [ main:1192 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 15:53:59  [ main:1192 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 15:53:59  [ main:1192 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 07:53:59 GMT[\r][\n]"
+2017-02-21 15:53:59  [ main:1192 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 15:53:59  [ main:1192 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 145[\r][\n]"
+2017-02-21 15:53:59  [ main:1192 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 15:53:59  [ main:1192 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=561B020E7E558DCE984FC965D8328180; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 15:53:59  [ main:1193 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 15:53:59  [ main:1193 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 15:53:59  [ main:1193 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"1","msg":[{"city":"[0xe6][0x9d][0xad][0xe5][0xb7][0x9e]","enterpriseCode":"2346150430","enterpriseName":"[0xe4][0xb8][0xad][0xe5][0x9b][0xbd][0xe7][0xa7][0xbb][0xe5][0x8a][0xa8][0xef][0xbc][0x88][0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe7][0x8e][0xaf][0xe5][0xa2][0x83][0xef][0xbc][0x89]","logoUrl":"","province":""}]}"
+2017-02-21 15:53:59  [ main:1199 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 15:53:59  [ main:1200 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 15:53:59  [ main:1200 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 07:53:59 GMT
+2017-02-21 15:53:59  [ main:1200 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 15:53:59  [ main:1200 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 145
+2017-02-21 15:53:59  [ main:1200 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 15:53:59  [ main:1200 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=561B020E7E558DCE984FC965D8328180; Path=/ems_cmcc/; HttpOnly
+2017-02-21 15:53:59  [ main:1200 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 15:53:59  [ main:1211 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 15:53:59  [ main:1224 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="561B020E7E558DCE984FC965D8328180", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 15:54:22  [ main:24052 ] - [ DEBUG ]  Cookies:JSESSIONID=561B020E7E558DCE984FC965D8328180; Path=/ems_cmcc/; HttpOnly
+2017-02-21 15:54:22  [ main:24067 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 15:54:22  [ main:24067 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 15:54:22  [ main:24081 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 15:54:22  [ main:24097 ] - [ DEBUG ]  Cookie [version: 0][name: JSESSIONID][value: 561B020E7E558DCE984FC965D8328180][domain: 172.23.23.97][path: /ems_cmcc/new/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 15:54:22  [ main:24099 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 15:54:22  [ main:24099 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 15:54:22  [ main:24100 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 15:54:22  [ main:24100 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 15:54:22  [ main:24100 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 15:54:24  [ main:25613 ] - [ DEBUG ]  Connection established 172.23.13.46:57092<->172.23.23.97:80
+2017-02-21 15:54:24  [ main:25615 ] - [ DEBUG ]  Executing request GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 15:54:24  [ main:25618 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 15:54:24  [ main:25618 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 15:54:24  [ main:25621 ] - [ DEBUG ]  http-outgoing-1 >> GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 15:54:24  [ main:25621 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 15:54:24  [ main:25622 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 15:54:24  [ main:25622 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 15:54:24  [ main:25623 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 15:54:24  [ main:25623 ] - [ DEBUG ]  http-outgoing-1 >> Cookie: JSESSIONID=561B020E7E558DCE984FC965D8328180
+2017-02-21 15:54:24  [ main:25624 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 15:54:24  [ main:25624 ] - [ DEBUG ]  http-outgoing-1 >> "GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1[\r][\n]"
+2017-02-21 15:54:24  [ main:25624 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 15:54:24  [ main:25625 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 15:54:24  [ main:25625 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 15:54:24  [ main:25625 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 15:54:24  [ main:25625 ] - [ DEBUG ]  http-outgoing-1 >> "Cookie: JSESSIONID=561B020E7E558DCE984FC965D8328180[\r][\n]"
+2017-02-21 15:54:24  [ main:25625 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 15:54:24  [ main:25625 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 15:54:24  [ main:25650 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 15:54:24  [ main:25650 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 15:54:24  [ main:25650 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 07:54:24 GMT[\r][\n]"
+2017-02-21 15:54:24  [ main:25651 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 15:54:24  [ main:25651 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 21[\r][\n]"
+2017-02-21 15:54:24  [ main:25651 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 15:54:24  [ main:25651 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 15:54:24  [ main:25651 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 15:54:24  [ main:25651 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"2","msg":""}"
+2017-02-21 15:54:24  [ main:25651 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 15:54:24  [ main:25651 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 15:54:24  [ main:25651 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 07:54:24 GMT
+2017-02-21 15:54:24  [ main:25651 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 15:54:24  [ main:25651 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 21
+2017-02-21 15:54:24  [ main:25652 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 15:54:24  [ main:25652 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 15:54:24  [ main:25654 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 15:54:24  [ main:25654 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 15:54:24  [ main:25655 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 15:54:24  [ main:25655 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 15:54:24  [ main:25656 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-02-21 15:54:24  [ main:25656 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 15:54:24  [ main:25658 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 15:54:24  [ main:25658 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2017-02-21 15:54:24  [ main:25658 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 16:16:10  [ main:1 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 16:16:10  [ main:40 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 16:16:10  [ main:44 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 16:16:10  [ main:84 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:16:10  [ main:88 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 16:16:10  [ main:98 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 16:16:10  [ main:119 ] - [ DEBUG ]  Connection established 172.23.13.46:57580<->172.23.23.97:80
+2017-02-21 16:16:10  [ main:119 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 16:16:10  [ main:120 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 16:16:10  [ main:121 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 16:16:10  [ main:126 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 16:16:10  [ main:126 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 16:16:10  [ main:126 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 16:16:10  [ main:126 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 16:16:10  [ main:126 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 16:16:10  [ main:126 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 52
+2017-02-21 16:16:10  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 16:16:10  [ main:128 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 16:16:10  [ main:128 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 16:16:10  [ main:128 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 16:16:10  [ main:128 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 16:16:10  [ main:128 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 16:16:10  [ main:128 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 52[\r][\n]"
+2017-02-21 16:16:10  [ main:129 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 16:16:10  [ main:129 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 16:16:10  [ main:129 ] - [ DEBUG ]  http-outgoing-0 >> "loginName=18867103603&loginPassword=123456789&type=1"
+2017-02-21 16:16:11  [ main:1623 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 16:16:11  [ main:1623 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 16:16:11  [ main:1623 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 08:16:12 GMT[\r][\n]"
+2017-02-21 16:16:11  [ main:1623 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 16:16:11  [ main:1623 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 145[\r][\n]"
+2017-02-21 16:16:11  [ main:1624 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 16:16:11  [ main:1624 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=89BB11931049F25E8AE7AA5137111C89; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 16:16:11  [ main:1624 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 16:16:11  [ main:1624 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 16:16:11  [ main:1624 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"1","msg":[{"city":"[0xe6][0x9d][0xad][0xe5][0xb7][0x9e]","enterpriseCode":"2346150430","enterpriseName":"[0xe4][0xb8][0xad][0xe5][0x9b][0xbd][0xe7][0xa7][0xbb][0xe5][0x8a][0xa8][0xef][0xbc][0x88][0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe7][0x8e][0xaf][0xe5][0xa2][0x83][0xef][0xbc][0x89]","logoUrl":"","province":""}]}"
+2017-02-21 16:16:12  [ main:1655 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 16:16:12  [ main:1655 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 16:16:12  [ main:1655 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 08:16:12 GMT
+2017-02-21 16:16:12  [ main:1655 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 16:16:12  [ main:1655 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 145
+2017-02-21 16:16:12  [ main:1656 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 16:16:12  [ main:1656 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=89BB11931049F25E8AE7AA5137111C89; Path=/ems_cmcc/; HttpOnly
+2017-02-21 16:16:12  [ main:1656 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 16:16:12  [ main:1666 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 16:16:12  [ main:1678 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="89BB11931049F25E8AE7AA5137111C89", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 16:16:12  [ main:1689 ] - [ DEBUG ]  Cookies:JSESSIONID=89BB11931049F25E8AE7AA5137111C89; Path=/ems_cmcc/; HttpOnly
+2017-02-21 16:16:12  [ main:1693 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 16:16:12  [ main:1694 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:16:12  [ main:1724 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 16:16:12  [ main:1745 ] - [ DEBUG ]  Cookie [version: 0][name: JSESSIONID][value: 89BB11931049F25E8AE7AA5137111C89][domain: 172.23.23.97][path: /ems_cmcc/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 16:16:12  [ main:1746 ] - [ DEBUG ]  Cookie [version: 0][name: Path][value: /ems_cmcc/][domain: 172.23.23.97][path: /ems_cmcc/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 16:16:12  [ main:1747 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 16:16:12  [ main:1747 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 16:16:12  [ main:1747 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:16:12  [ main:1748 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 16:16:12  [ main:1748 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 16:16:12  [ main:1775 ] - [ DEBUG ]  Connection established 172.23.13.46:57581<->172.23.23.97:80
+2017-02-21 16:16:12  [ main:1776 ] - [ DEBUG ]  Executing request GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 16:16:12  [ main:1776 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 16:16:12  [ main:1776 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 16:16:12  [ main:1776 ] - [ DEBUG ]  http-outgoing-1 >> GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 16:16:12  [ main:1776 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 16:16:12  [ main:1777 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 16:16:12  [ main:1777 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 16:16:12  [ main:1777 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 16:16:12  [ main:1777 ] - [ DEBUG ]  http-outgoing-1 >> Cookie: JSESSIONID=89BB11931049F25E8AE7AA5137111C89; Path=/ems_cmcc/
+2017-02-21 16:16:12  [ main:1777 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 16:16:12  [ main:1777 ] - [ DEBUG ]  http-outgoing-1 >> "GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1[\r][\n]"
+2017-02-21 16:16:12  [ main:1777 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 16:16:12  [ main:1777 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 16:16:12  [ main:1777 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 16:16:12  [ main:1777 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 16:16:12  [ main:1777 ] - [ DEBUG ]  http-outgoing-1 >> "Cookie: JSESSIONID=89BB11931049F25E8AE7AA5137111C89; Path=/ems_cmcc/[\r][\n]"
+2017-02-21 16:16:12  [ main:1778 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 16:16:12  [ main:1778 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 16:16:12  [ main:1814 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 16:16:12  [ main:1814 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 16:16:12  [ main:1814 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 08:16:12 GMT[\r][\n]"
+2017-02-21 16:16:12  [ main:1814 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 16:16:12  [ main:1814 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 21[\r][\n]"
+2017-02-21 16:16:12  [ main:1814 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 16:16:12  [ main:1815 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 16:16:12  [ main:1815 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 16:16:12  [ main:1815 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"2","msg":""}"
+2017-02-21 16:16:12  [ main:1815 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 16:16:12  [ main:1815 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 16:16:12  [ main:1815 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 08:16:12 GMT
+2017-02-21 16:16:12  [ main:1815 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 16:16:12  [ main:1815 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 21
+2017-02-21 16:16:12  [ main:1815 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 16:16:12  [ main:1815 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 16:16:12  [ main:1816 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 16:16:12  [ main:1816 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 16:16:12  [ main:1817 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:16:12  [ main:1817 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 16:16:12  [ main:1817 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-02-21 16:16:12  [ main:1818 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 16:16:12  [ main:1818 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 16:16:12  [ main:1818 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2017-02-21 16:16:12  [ main:1819 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 16:17:25  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 16:17:25  [ main:31 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 16:17:25  [ main:36 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 16:17:25  [ main:78 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:17:25  [ main:82 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 16:17:25  [ main:92 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 16:17:25  [ main:115 ] - [ DEBUG ]  Connection established 172.23.13.46:57606<->172.23.23.97:80
+2017-02-21 16:17:25  [ main:115 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 16:17:25  [ main:115 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 16:17:25  [ main:117 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 16:17:25  [ main:122 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 16:17:25  [ main:122 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 16:17:25  [ main:122 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 16:17:25  [ main:122 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 16:17:25  [ main:123 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 16:17:25  [ main:123 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 52
+2017-02-21 16:17:25  [ main:123 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 16:17:25  [ main:124 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 16:17:25  [ main:124 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 16:17:25  [ main:124 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 16:17:25  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 16:17:25  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 16:17:25  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 52[\r][\n]"
+2017-02-21 16:17:25  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 16:17:25  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 16:17:25  [ main:128 ] - [ DEBUG ]  http-outgoing-0 >> "loginName=18867103603&loginPassword=123456789&type=1"
+2017-02-21 16:17:26  [ main:1068 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 16:17:26  [ main:1069 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 16:17:26  [ main:1069 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 08:17:26 GMT[\r][\n]"
+2017-02-21 16:17:26  [ main:1069 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 16:17:26  [ main:1069 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 145[\r][\n]"
+2017-02-21 16:17:26  [ main:1069 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 16:17:26  [ main:1070 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=58499158147CF99DE57713FDF008F821; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 16:17:26  [ main:1070 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 16:17:26  [ main:1070 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 16:17:26  [ main:1070 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"1","msg":[{"city":"[0xe6][0x9d][0xad][0xe5][0xb7][0x9e]","enterpriseCode":"2346150430","enterpriseName":"[0xe4][0xb8][0xad][0xe5][0x9b][0xbd][0xe7][0xa7][0xbb][0xe5][0x8a][0xa8][0xef][0xbc][0x88][0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe7][0x8e][0xaf][0xe5][0xa2][0x83][0xef][0xbc][0x89]","logoUrl":"","province":""}]}"
+2017-02-21 16:17:26  [ main:1077 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 16:17:26  [ main:1078 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 16:17:26  [ main:1078 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 08:17:26 GMT
+2017-02-21 16:17:26  [ main:1078 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 16:17:26  [ main:1078 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 145
+2017-02-21 16:17:26  [ main:1078 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 16:17:26  [ main:1078 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=58499158147CF99DE57713FDF008F821; Path=/ems_cmcc/; HttpOnly
+2017-02-21 16:17:26  [ main:1078 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 16:17:26  [ main:1091 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 16:17:26  [ main:1106 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="58499158147CF99DE57713FDF008F821", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 16:17:57  [ main:31978 ] - [ DEBUG ]  Cookies:JSESSIONID=58499158147CF99DE57713FDF008F821; Path=/ems_cmcc/; HttpOnly
+2017-02-21 16:24:21  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 16:24:21  [ main:36 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 16:24:21  [ main:43 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 16:24:21  [ main:92 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:24:21  [ main:96 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 16:24:21  [ main:105 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 16:24:21  [ main:128 ] - [ DEBUG ]  Connection established 172.23.13.46:57708<->172.23.23.97:80
+2017-02-21 16:24:21  [ main:128 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 16:24:21  [ main:129 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 16:24:21  [ main:130 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 16:24:21  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 16:24:21  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 16:24:21  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 16:24:21  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 16:24:21  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 16:24:21  [ main:135 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 52
+2017-02-21 16:24:21  [ main:135 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 16:24:21  [ main:135 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 16:24:21  [ main:135 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 16:24:21  [ main:136 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 16:24:21  [ main:136 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 16:24:21  [ main:136 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 16:24:21  [ main:136 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 52[\r][\n]"
+2017-02-21 16:24:21  [ main:136 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 16:24:21  [ main:136 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 16:24:21  [ main:136 ] - [ DEBUG ]  http-outgoing-0 >> "loginName=18867103603&loginPassword=123456789&type=1"
+2017-02-21 16:24:21  [ main:158 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 16:24:21  [ main:158 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 16:24:21  [ main:158 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 08:24:21 GMT[\r][\n]"
+2017-02-21 16:24:21  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 16:24:21  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 145[\r][\n]"
+2017-02-21 16:24:21  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 16:24:21  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=084FD4CDB78315A07787CA8F8AD4AA1B; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 16:24:21  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 16:24:21  [ main:159 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 16:24:21  [ main:160 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"1","msg":[{"city":"[0xe6][0x9d][0xad][0xe5][0xb7][0x9e]","enterpriseCode":"2346150430","enterpriseName":"[0xe4][0xb8][0xad][0xe5][0x9b][0xbd][0xe7][0xa7][0xbb][0xe5][0x8a][0xa8][0xef][0xbc][0x88][0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe7][0x8e][0xaf][0xe5][0xa2][0x83][0xef][0xbc][0x89]","logoUrl":"","province":""}]}"
+2017-02-21 16:24:21  [ main:165 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 16:24:21  [ main:165 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 16:24:21  [ main:165 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 08:24:21 GMT
+2017-02-21 16:24:21  [ main:166 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 16:24:21  [ main:166 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 145
+2017-02-21 16:24:21  [ main:166 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 16:24:21  [ main:166 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=084FD4CDB78315A07787CA8F8AD4AA1B; Path=/ems_cmcc/; HttpOnly
+2017-02-21 16:24:21  [ main:166 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 16:24:21  [ main:183 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 16:24:21  [ main:198 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="084FD4CDB78315A07787CA8F8AD4AA1B", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 16:24:21  [ main:206 ] - [ DEBUG ]  Cookies:JSESSIONID=084FD4CDB78315A07787CA8F8AD4AA1B; Path=/ems_cmcc/; HttpOnly
+2017-02-21 16:24:21  [ main:210 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 16:24:21  [ main:210 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:24:21  [ main:259 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 16:24:21  [ main:298 ] - [ DEBUG ]  Cookie [version: 0][name: JSESSIONID][value: 084FD4CDB78315A07787CA8F8AD4AA1B][domain: 172.23.23.97][path: /ems_cmcc/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 16:24:21  [ main:298 ] - [ DEBUG ]  Cookie [version: 0][name: Path][value: /ems_cmcc/][domain: 172.23.23.97][path: /ems_cmcc/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 16:24:21  [ main:301 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 16:24:21  [ main:302 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 16:24:21  [ main:303 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:24:21  [ main:303 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 16:24:21  [ main:305 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 16:24:21  [ main:314 ] - [ DEBUG ]  Connection established 172.23.13.46:57709<->172.23.23.97:80
+2017-02-21 16:24:21  [ main:315 ] - [ DEBUG ]  Executing request GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 16:24:21  [ main:315 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 16:24:21  [ main:315 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 16:24:21  [ main:315 ] - [ DEBUG ]  http-outgoing-1 >> GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 16:24:21  [ main:315 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 16:24:21  [ main:315 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 16:24:21  [ main:315 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 16:24:21  [ main:315 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 16:24:21  [ main:315 ] - [ DEBUG ]  http-outgoing-1 >> Cookie: JSESSIONID=084FD4CDB78315A07787CA8F8AD4AA1B; Path=/ems_cmcc/
+2017-02-21 16:24:21  [ main:315 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 16:24:21  [ main:316 ] - [ DEBUG ]  http-outgoing-1 >> "GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1[\r][\n]"
+2017-02-21 16:24:21  [ main:316 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 16:24:21  [ main:316 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 16:24:21  [ main:316 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 16:24:21  [ main:316 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 16:24:21  [ main:316 ] - [ DEBUG ]  http-outgoing-1 >> "Cookie: JSESSIONID=084FD4CDB78315A07787CA8F8AD4AA1B; Path=/ems_cmcc/[\r][\n]"
+2017-02-21 16:24:21  [ main:316 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 16:24:21  [ main:316 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 16:24:21  [ main:347 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 16:24:21  [ main:347 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 16:24:21  [ main:347 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 08:24:21 GMT[\r][\n]"
+2017-02-21 16:24:21  [ main:347 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 16:24:21  [ main:348 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 21[\r][\n]"
+2017-02-21 16:24:21  [ main:348 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 16:24:21  [ main:348 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 16:24:21  [ main:348 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 16:24:21  [ main:348 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"2","msg":""}"
+2017-02-21 16:24:21  [ main:348 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 16:24:21  [ main:349 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 16:24:21  [ main:349 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 08:24:21 GMT
+2017-02-21 16:24:21  [ main:349 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 16:24:21  [ main:349 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 21
+2017-02-21 16:24:21  [ main:349 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 16:24:21  [ main:349 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 16:24:21  [ main:349 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 16:24:21  [ main:350 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 16:24:21  [ main:350 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:24:21  [ main:351 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 16:24:21  [ main:351 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-02-21 16:24:21  [ main:352 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 16:24:21  [ main:352 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 16:24:21  [ main:352 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2017-02-21 16:24:21  [ main:353 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 16:33:13  [ AWT-EventQueue-0:0 ] - [ DEBUG ]  Capture Thread is started...
+2017-02-21 16:33:22  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 16:33:22  [ main:44 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 16:33:22  [ main:50 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 16:33:22  [ main:134 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:33:22  [ main:149 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 16:33:22  [ main:158 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 16:33:22  [ main:180 ] - [ DEBUG ]  Connection established 172.23.13.46:57859<->172.23.23.97:80
+2017-02-21 16:33:22  [ main:181 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 16:33:22  [ main:181 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 16:33:22  [ main:182 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 16:33:22  [ main:188 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 16:33:22  [ main:189 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 16:33:22  [ main:189 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 16:33:22  [ main:189 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 16:33:22  [ main:189 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 16:33:22  [ main:189 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 52
+2017-02-21 16:33:22  [ main:189 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 16:33:22  [ main:190 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 16:33:22  [ main:191 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 16:33:22  [ main:191 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 16:33:22  [ main:191 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 16:33:22  [ main:191 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 16:33:22  [ main:191 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 52[\r][\n]"
+2017-02-21 16:33:22  [ main:191 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 16:33:22  [ main:191 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 16:33:22  [ main:191 ] - [ DEBUG ]  http-outgoing-0 >> "loginName=18867103603&loginPassword=123456789&type=1"
+2017-02-21 16:33:22  [ main:217 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 16:33:22  [ main:217 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 16:33:22  [ main:217 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 08:33:22 GMT[\r][\n]"
+2017-02-21 16:33:22  [ main:217 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 16:33:22  [ main:217 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 145[\r][\n]"
+2017-02-21 16:33:22  [ main:217 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 16:33:22  [ main:217 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=A6577258C9BD374A73D2EE1770B1E049; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 16:33:22  [ main:218 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 16:33:22  [ main:218 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 16:33:22  [ main:218 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"1","msg":[{"city":"[0xe6][0x9d][0xad][0xe5][0xb7][0x9e]","enterpriseCode":"2346150430","enterpriseName":"[0xe4][0xb8][0xad][0xe5][0x9b][0xbd][0xe7][0xa7][0xbb][0xe5][0x8a][0xa8][0xef][0xbc][0x88][0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe7][0x8e][0xaf][0xe5][0xa2][0x83][0xef][0xbc][0x89]","logoUrl":"","province":""}]}"
+2017-02-21 16:33:22  [ main:229 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 16:33:22  [ main:229 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 16:33:22  [ main:229 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 08:33:22 GMT
+2017-02-21 16:33:22  [ main:229 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 16:33:22  [ main:229 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 145
+2017-02-21 16:33:22  [ main:229 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 16:33:22  [ main:229 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=A6577258C9BD374A73D2EE1770B1E049; Path=/ems_cmcc/; HttpOnly
+2017-02-21 16:33:22  [ main:230 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 16:33:22  [ main:242 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 16:33:22  [ main:254 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="A6577258C9BD374A73D2EE1770B1E049", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 16:33:22  [ main:289 ] - [ DEBUG ]  Cookies:JSESSIONID=A6577258C9BD374A73D2EE1770B1E049; Path=/ems_cmcc/; HttpOnly
+2017-02-21 16:33:22  [ main:292 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 16:33:22  [ main:293 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:33:22  [ main:329 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 16:33:22  [ main:348 ] - [ DEBUG ]  Cookie [version: 0][name: JSESSIONID][value: A6577258C9BD374A73D2EE1770B1E049][domain: 172.23.23.97][path: /ems_cmcc/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 16:33:22  [ main:349 ] - [ DEBUG ]  Cookie [version: 0][name: Path][value: /ems_cmcc/][domain: 172.23.23.97][path: /ems_cmcc/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 16:33:22  [ main:352 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 16:33:22  [ main:353 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 16:33:22  [ main:354 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:33:22  [ main:354 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 16:33:22  [ main:355 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 16:33:23  [ main:364 ] - [ DEBUG ]  Connection established 172.23.13.46:57860<->172.23.23.97:80
+2017-02-21 16:33:23  [ main:364 ] - [ DEBUG ]  Executing request GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 16:33:23  [ main:365 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 16:33:23  [ main:365 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 16:33:23  [ main:365 ] - [ DEBUG ]  http-outgoing-1 >> GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 16:33:23  [ main:365 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 16:33:23  [ main:365 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 16:33:23  [ main:365 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 16:33:23  [ main:366 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 16:33:23  [ main:366 ] - [ DEBUG ]  http-outgoing-1 >> Cookie: JSESSIONID=A6577258C9BD374A73D2EE1770B1E049; Path=/ems_cmcc/
+2017-02-21 16:33:23  [ main:366 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 16:33:23  [ main:366 ] - [ DEBUG ]  http-outgoing-1 >> "GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1[\r][\n]"
+2017-02-21 16:33:23  [ main:366 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 16:33:23  [ main:366 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 16:33:23  [ main:366 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 16:33:23  [ main:366 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 16:33:23  [ main:366 ] - [ DEBUG ]  http-outgoing-1 >> "Cookie: JSESSIONID=A6577258C9BD374A73D2EE1770B1E049; Path=/ems_cmcc/[\r][\n]"
+2017-02-21 16:33:23  [ main:366 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 16:33:23  [ main:366 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 16:33:23  [ main:398 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 16:33:23  [ main:398 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 16:33:23  [ main:398 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 08:33:23 GMT[\r][\n]"
+2017-02-21 16:33:23  [ main:398 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 16:33:23  [ main:399 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 21[\r][\n]"
+2017-02-21 16:33:23  [ main:399 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 16:33:23  [ main:399 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 16:33:23  [ main:399 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 16:33:23  [ main:399 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"2","msg":""}"
+2017-02-21 16:33:23  [ main:399 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 16:33:23  [ main:399 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 16:33:23  [ main:399 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 08:33:23 GMT
+2017-02-21 16:33:23  [ main:399 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 16:33:23  [ main:400 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 21
+2017-02-21 16:33:23  [ main:400 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 16:33:23  [ main:400 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 16:33:23  [ main:400 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 16:33:23  [ main:400 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 16:33:23  [ main:401 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:33:23  [ main:401 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 16:33:23  [ main:402 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-02-21 16:33:23  [ main:404 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 16:33:23  [ main:404 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 16:33:23  [ main:404 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2017-02-21 16:33:23  [ main:405 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 16:33:39  [ AWT-EventQueue-0:25644 ] - [ DEBUG ]  Capture Thread is started...
+2017-02-21 16:33:58  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 16:33:59  [ main:39 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 16:33:59  [ main:42 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 16:33:59  [ main:90 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:33:59  [ main:93 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 16:33:59  [ main:105 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 16:33:59  [ main:125 ] - [ DEBUG ]  Connection established 172.23.13.46:57870<->172.23.23.97:80
+2017-02-21 16:33:59  [ main:125 ] - [ DEBUG ]  Executing request POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 16:33:59  [ main:125 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 16:33:59  [ main:127 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 16:33:59  [ main:132 ] - [ DEBUG ]  http-outgoing-0 >> POST /ems_cmcc/new/getEnterprise HTTP/1.1
+2017-02-21 16:33:59  [ main:132 ] - [ DEBUG ]  http-outgoing-0 >> Connection: keep-alive
+2017-02-21 16:33:59  [ main:132 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded
+2017-02-21 16:33:59  [ main:133 ] - [ DEBUG ]  http-outgoing-0 >> Host: 172.23.23.97
+2017-02-21 16:33:59  [ main:133 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 16:33:59  [ main:133 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 52
+2017-02-21 16:33:59  [ main:133 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-02-21 16:33:59  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> "POST /ems_cmcc/new/getEnterprise HTTP/1.1[\r][\n]"
+2017-02-21 16:33:59  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2017-02-21 16:33:59  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded[\r][\n]"
+2017-02-21 16:33:59  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 16:33:59  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 16:33:59  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 52[\r][\n]"
+2017-02-21 16:33:59  [ main:134 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 16:33:59  [ main:135 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2017-02-21 16:33:59  [ main:135 ] - [ DEBUG ]  http-outgoing-0 >> "loginName=18867103603&loginPassword=123456789&type=1"
+2017-02-21 16:34:21  [ main:22402 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 16:34:21  [ main:22402 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2017-02-21 16:34:21  [ main:22402 ] - [ DEBUG ]  http-outgoing-0 << "Date: Tue, 21 Feb 2017 08:34:21 GMT[\r][\n]"
+2017-02-21 16:34:21  [ main:22402 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 16:34:21  [ main:22402 ] - [ DEBUG ]  http-outgoing-0 << "Content-Length: 145[\r][\n]"
+2017-02-21 16:34:21  [ main:22402 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2017-02-21 16:34:21  [ main:22402 ] - [ DEBUG ]  http-outgoing-0 << "Set-Cookie: JSESSIONID=B25D33809C8702BEFF5916A261A4CCCF; Path=/ems_cmcc/; HttpOnly[\r][\n]"
+2017-02-21 16:34:21  [ main:22402 ] - [ DEBUG ]  http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 16:34:21  [ main:22403 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2017-02-21 16:34:21  [ main:22403 ] - [ DEBUG ]  http-outgoing-0 << "{"flag":"1","msg":[{"city":"[0xe6][0x9d][0xad][0xe5][0xb7][0x9e]","enterpriseCode":"2346150430","enterpriseName":"[0xe4][0xb8][0xad][0xe5][0x9b][0xbd][0xe7][0xa7][0xbb][0xe5][0x8a][0xa8][0xef][0xbc][0x88][0xe6][0xb5][0x8b][0xe8][0xaf][0x95][0xe7][0x8e][0xaf][0xe5][0xa2][0x83][0xef][0xbc][0x89]","logoUrl":"","province":""}]}"
+2017-02-21 16:34:21  [ main:22429 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2017-02-21 16:34:21  [ main:22430 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2017-02-21 16:34:21  [ main:22430 ] - [ DEBUG ]  http-outgoing-0 << Date: Tue, 21 Feb 2017 08:34:21 GMT
+2017-02-21 16:34:21  [ main:22430 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+2017-02-21 16:34:21  [ main:22430 ] - [ DEBUG ]  http-outgoing-0 << Content-Length: 145
+2017-02-21 16:34:21  [ main:22430 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2017-02-21 16:34:21  [ main:22430 ] - [ DEBUG ]  http-outgoing-0 << Set-Cookie: JSESSIONID=B25D33809C8702BEFF5916A261A4CCCF; Path=/ems_cmcc/; HttpOnly
+2017-02-21 16:34:21  [ main:22430 ] - [ DEBUG ]  http-outgoing-0 << Access-Control-Allow-Origin: *
+2017-02-21 16:34:21  [ main:22440 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 16:34:21  [ main:22451 ] - [ DEBUG ]  Cookie accepted [JSESSIONID="B25D33809C8702BEFF5916A261A4CCCF", version:0, domain:172.23.23.97, path:/ems_cmcc/, expiry:null]
+2017-02-21 16:34:21  [ main:22471 ] - [ DEBUG ]  Cookies:JSESSIONID=B25D33809C8702BEFF5916A261A4CCCF; Path=/ems_cmcc/; HttpOnly
+2017-02-21 16:34:21  [ main:22474 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 16:34:21  [ main:22474 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:34:21  [ main:22506 ] - [ DEBUG ]  CookieSpec selected: default
+2017-02-21 16:34:21  [ main:22523 ] - [ DEBUG ]  Cookie [version: 0][name: JSESSIONID][value: B25D33809C8702BEFF5916A261A4CCCF][domain: 172.23.23.97][path: /ems_cmcc/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 16:34:21  [ main:22523 ] - [ DEBUG ]  Cookie [version: 0][name: Path][value: /ems_cmcc/][domain: 172.23.23.97][path: /ems_cmcc/][expiry: null] match [172.23.23.97:80/ems_cmcc/new/loginPson]
+2017-02-21 16:34:21  [ main:22524 ] - [ DEBUG ]  Auth cache not set in the context
+2017-02-21 16:34:21  [ main:22524 ] - [ DEBUG ]  Connection request: [route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2017-02-21 16:34:21  [ main:22525 ] - [ DEBUG ]  Connection leased: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:34:21  [ main:22525 ] - [ DEBUG ]  Opening connection {}->http://172.23.23.97:80
+2017-02-21 16:34:21  [ main:22525 ] - [ DEBUG ]  Connecting to /172.23.23.97:80
+2017-02-21 16:34:21  [ main:22550 ] - [ DEBUG ]  Connection established 172.23.13.46:57876<->172.23.23.97:80
+2017-02-21 16:34:21  [ main:22550 ] - [ DEBUG ]  Executing request GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 16:34:21  [ main:22550 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2017-02-21 16:34:21  [ main:22550 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2017-02-21 16:34:21  [ main:22552 ] - [ DEBUG ]  http-outgoing-1 >> GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1
+2017-02-21 16:34:21  [ main:22552 ] - [ DEBUG ]  http-outgoing-1 >> Content-Type: application/json;charset=UTF-8
+2017-02-21 16:34:21  [ main:22552 ] - [ DEBUG ]  http-outgoing-1 >> Host: 172.23.23.97
+2017-02-21 16:34:21  [ main:22552 ] - [ DEBUG ]  http-outgoing-1 >> Connection: Keep-Alive
+2017-02-21 16:34:21  [ main:22552 ] - [ DEBUG ]  http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)
+2017-02-21 16:34:21  [ main:22552 ] - [ DEBUG ]  http-outgoing-1 >> Cookie: JSESSIONID=B25D33809C8702BEFF5916A261A4CCCF; Path=/ems_cmcc/
+2017-02-21 16:34:21  [ main:22552 ] - [ DEBUG ]  http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-02-21 16:34:21  [ main:22552 ] - [ DEBUG ]  http-outgoing-1 >> "GET /ems_cmcc/new/loginPson?enterpriseCode=2346150430 HTTP/1.1[\r][\n]"
+2017-02-21 16:34:21  [ main:22553 ] - [ DEBUG ]  http-outgoing-1 >> "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 16:34:21  [ main:22553 ] - [ DEBUG ]  http-outgoing-1 >> "Host: 172.23.23.97[\r][\n]"
+2017-02-21 16:34:21  [ main:22553 ] - [ DEBUG ]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-02-21 16:34:21  [ main:22553 ] - [ DEBUG ]  http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_111)[\r][\n]"
+2017-02-21 16:34:21  [ main:22553 ] - [ DEBUG ]  http-outgoing-1 >> "Cookie: JSESSIONID=B25D33809C8702BEFF5916A261A4CCCF; Path=/ems_cmcc/[\r][\n]"
+2017-02-21 16:34:21  [ main:22553 ] - [ DEBUG ]  http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-02-21 16:34:21  [ main:22553 ] - [ DEBUG ]  http-outgoing-1 >> "[\r][\n]"
+2017-02-21 16:34:21  [ main:22576 ] - [ DEBUG ]  http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-02-21 16:34:21  [ main:22576 ] - [ DEBUG ]  http-outgoing-1 << "Server: nginx[\r][\n]"
+2017-02-21 16:34:21  [ main:22576 ] - [ DEBUG ]  http-outgoing-1 << "Date: Tue, 21 Feb 2017 08:34:21 GMT[\r][\n]"
+2017-02-21 16:34:21  [ main:22576 ] - [ DEBUG ]  http-outgoing-1 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+2017-02-21 16:34:21  [ main:22577 ] - [ DEBUG ]  http-outgoing-1 << "Content-Length: 21[\r][\n]"
+2017-02-21 16:34:21  [ main:22577 ] - [ DEBUG ]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2017-02-21 16:34:21  [ main:22577 ] - [ DEBUG ]  http-outgoing-1 << "Access-Control-Allow-Origin: *[\r][\n]"
+2017-02-21 16:34:21  [ main:22577 ] - [ DEBUG ]  http-outgoing-1 << "[\r][\n]"
+2017-02-21 16:34:21  [ main:22577 ] - [ DEBUG ]  http-outgoing-1 << "{"flag":"2","msg":""}"
+2017-02-21 16:34:21  [ main:22577 ] - [ DEBUG ]  http-outgoing-1 << HTTP/1.1 200 OK
+2017-02-21 16:34:21  [ main:22578 ] - [ DEBUG ]  http-outgoing-1 << Server: nginx
+2017-02-21 16:34:21  [ main:22578 ] - [ DEBUG ]  http-outgoing-1 << Date: Tue, 21 Feb 2017 08:34:21 GMT
+2017-02-21 16:34:21  [ main:22578 ] - [ DEBUG ]  http-outgoing-1 << Content-Type: application/json;charset=UTF-8
+2017-02-21 16:34:21  [ main:22578 ] - [ DEBUG ]  http-outgoing-1 << Content-Length: 21
+2017-02-21 16:34:21  [ main:22578 ] - [ DEBUG ]  http-outgoing-1 << Connection: keep-alive
+2017-02-21 16:34:21  [ main:22578 ] - [ DEBUG ]  http-outgoing-1 << Access-Control-Allow-Origin: *
+2017-02-21 16:34:21  [ main:22579 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2017-02-21 16:34:21  [ main:22579 ] - [ DEBUG ]  Connection [id: 1][route: {}->http://172.23.23.97:80] can be kept alive indefinitely
+2017-02-21 16:34:21  [ main:22579 ] - [ DEBUG ]  Connection released: [id: 1][route: {}->http://172.23.23.97:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2017-02-21 16:34:21  [ main:22580 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 16:34:21  [ main:22580 ] - [ DEBUG ]  http-outgoing-0: Close connection
+2017-02-21 16:34:21  [ main:22581 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 16:34:21  [ main:22581 ] - [ DEBUG ]  Connection manager is shutting down
+2017-02-21 16:34:21  [ main:22581 ] - [ DEBUG ]  http-outgoing-1: Close connection
+2017-02-21 16:34:21  [ main:22582 ] - [ DEBUG ]  Connection manager shut down
+2017-02-21 16:36:45  [ AWT-EventQueue-0:0 ] - [ DEBUG ]  Capture Thread is started...
+2017-02-21 17:25:43  [ AWT-EventQueue-0:0 ] - [ DEBUG ]  Capture Thread is started...
+2017-02-21 17:25:54  [ Thread-2:10251 ] - [ DEBUG ]  sequence:2490966464 id---->0 fin---->false
+2017-02-21 17:25:54  [ Thread-2:10252 ] - [ DEBUG ]  isFin:false packet---->1487669154:114677 /172.23.13.46->/172.23.23.97 protocol(6) priority(0)  hop(128)  offset(0) ident(2779) TCP 58759 > 80 seq(2490966464) win(8192)  S
+2017-02-21 17:25:54  [ Thread-2:10260 ] - [ DEBUG ]  sequence:2315845234 id---->0 fin---->false
+2017-02-21 17:25:54  [ Thread-2:10260 ] - [ DEBUG ]  isFin:false packet---->1487669154:128007 /172.23.23.97->/172.23.13.46 protocol(6) priority(0)  hop(62)  offset(0) ident(0) TCP 80 > 58759 seq(2315845234) win(14600) ack 2490966465  S
+2017-02-21 17:25:54  [ Thread-2:10261 ] - [ DEBUG ]  sequence:2490966465 id---->0 fin---->false
+2017-02-21 17:25:54  [ Thread-2:10261 ] - [ DEBUG ]  isFin:false packet---->1487669154:128207 /172.23.13.46->/172.23.23.97 protocol(6) priority(0)  hop(128)  offset(0) ident(2780) TCP 58759 > 80 seq(2490966465) win(69) ack 2315845235 
+2017-02-21 17:25:54  [ Thread-2:10261 ] - [ DEBUG ]  sequence:2490966465 id---->0 fin---->false
+2017-02-21 17:25:54  [ Thread-2:10262 ] - [ DEBUG ]  isFin:false packet---->1487669154:129050 /172.23.13.46->/172.23.23.97 protocol(6) priority(0)  hop(128)  offset(0) ident(2781) TCP 58759 > 80 seq(2490966465) win(69) ack 2315845235  P
+2017-02-21 17:25:54  [ Thread-2:10312 ] - [ DEBUG ]  sequence:2315845235 id---->2490966729 fin---->false
+2017-02-21 17:25:54  [ Thread-2:10312 ] - [ DEBUG ]  isFin:false packet---->1487669154:151818 /172.23.23.97->/172.23.13.46 protocol(6) priority(0)  hop(62)  offset(0) ident(30873) TCP 80 > 58759 seq(2315845235) win(123) ack 2490966729 
+2017-02-21 17:25:54  [ Thread-2:10312 ] - [ DEBUG ]  sequence:2315845235 id---->2490966729 fin---->false
+2017-02-21 17:25:54  [ Thread-2:10313 ] - [ DEBUG ]  isFin:false packet---->1487669154:153956 /172.23.23.97->/172.23.13.46 protocol(6) priority(0)  hop(62)  offset(0) ident(30874) TCP 80 > 58759 seq(2315845235) win(123) ack 2490966729  P
+2017-02-21 17:25:54  [ Thread-2:10313 ] - [ DEBUG ]  sequence:2490966729 id---->2490966729 fin---->true
+2017-02-21 17:25:54  [ Thread-2:10313 ] - [ DEBUG ]  isFin:true packet---->1487669154:158275 /172.23.13.46->/172.23.23.97 protocol(6) priority(0)  hop(128)  offset(0) ident(2782) TCP 58759 > 80 seq(2490966729) win(67) ack 2315845658  F
+2017-02-21 17:25:54  [ Thread-2:10313 ] - [ DEBUG ]  begin to show and save data...
+2017-02-21 17:25:54  [ Thread-2:10355 ] - [ DEBUG ]  sequence:2315845658 id---->-1 fin---->true
+2017-02-21 17:25:54  [ Thread-2:10355 ] - [ DEBUG ]  isFin:false packet---->1487669154:178156 /172.23.23.97->/172.23.13.46 protocol(6) priority(0)  hop(62)  offset(0) ident(30875) TCP 80 > 58759 seq(2315845658) win(123) ack 2490966730  F
+2017-02-21 17:25:54  [ Thread-2:10356 ] - [ DEBUG ]  sequence:2490966730 id---->-1 fin---->false
+2017-02-21 17:25:54  [ Thread-2:10356 ] - [ DEBUG ]  isFin:false packet---->1487669154:178209 /172.23.13.46->/172.23.23.97 protocol(6) priority(0)  hop(128)  offset(0) ident(2783) TCP 58759 > 80 seq(2490966730) win(67) ack 2315845659 
+2017-02-21 17:25:54  [ Thread-3:10358 ] - [ DEBUG ]  wait...
+2017-02-21 17:25:54  [ Thread-3:10390 ] - [ DEBUG ]  dao.HttpDataBean@7eecf144
+2017-02-21 17:25:54  [ Thread-3:10661 ] - [ DEBUG ]  sourceFile:data\getEnterprise.xls; targetFile:D:\workspace\JavaNetCap\data\getEnterprise-temp.xls
+2017-02-21 17:25:55  [ Thread-3:11459 ] - [ DEBUG ]  is delete sourceFile:false; is rename ok:false

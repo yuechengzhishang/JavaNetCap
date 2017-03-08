@@ -27,7 +27,6 @@ public class AbstractHttpMessageMsg extends AbstractHttpMessage {
 		}
 	}
 
-	@Override
 	public ProtocolVersion getProtocolVersion() {
 		return ProtocolVersionBuild.getDefault();
 	}

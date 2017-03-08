@@ -1,7 +1,12 @@
 package netcap.view;
 
 public enum MenuEnum {
-	START("start", "开始"), STOP("stop", "停止"), SAVE("save", "保存"), SAVEAS("saveAs", "保存为..."), EXIT("exit", "退出"), CONF("conf", "配置");
+	START("start", "开始"), 
+	STOP("stop", "停止"), 
+	SAVE("save", "保存"), 
+	SAVEAS("saveAs", "保存为..."), 
+	EXIT("exit", "退出"), 
+	CONF("conf", "配置");
 	
 	private String command;
 	private String description;
